@@ -1,0 +1,11 @@
+# Geen vermogens-, persoons- of dossierdata in git
+data/
+exports/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+*.docx
+.env
+.claude/settings.local.json
+.claude/agent-memory-local/

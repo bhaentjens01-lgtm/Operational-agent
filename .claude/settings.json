@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__Cashfeed__cashfeed_delete_purchase_order",
+      "mcp__Gmail__trash_message",
+      "mcp__Gmail__trash_thread",
+      "mcp__Gmail__delete_draft",
+      "mcp__Gmail__delete_label",
+      "mcp__Google_Drive__trash_file",
+      "mcp__Google_Calendar__delete_event",
+      "mcp__Dropbox__delete",
+      "mcp__Microsoft_365__outlook_batch_delete_messages",
+      "mcp__Microsoft_365__outlook_trash_thread",
+      "mcp__Microsoft_365__outlook_delete_event",
+      "mcp__Microsoft_365__sharepoint_delete_item",
+      "mcp__Todoist__delete-object"
+    ],
+    "ask": [
+      "mcp__Cashfeed__cashfeed_approve_invoices",
+      "mcp__Cashfeed__cashfeed_update_invoice",
+      "mcp__Cashfeed__cashfeed_update_supplier",
+      "mcp__Cashfeed__cashfeed_update_organisation",
+      "mcp__Cashfeed__cashfeed_update_user_settings",
+      "mcp__Cashfeed__cashfeed_api_invoke",
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__reply",
+      "mcp__Gmail__forward",
+      "mcp__Microsoft_365__outlook_send_mail",
+      "mcp__Microsoft_365__outlook_send_draft",
+      "mcp__Microsoft_365__outlook_forward_mail",
+      "mcp__Microsoft_365__teams_send_chat_message",
+      "mcp__Microsoft_365__teams_send_channel_message",
+      "mcp__Microsoft_365__teams_reply_channel_message",
+      "mcp__Microsoft_365__outlook_create_event",
+      "mcp__Microsoft_365__outlook_update_event",
+      "mcp__Microsoft_365__outlook_respond_to_event",
+      "mcp__Microsoft_365__sharepoint_move_item",
+      "mcp__Google_Calendar__create_event",
+      "mcp__Google_Calendar__update_event",
+      "mcp__Google_Calendar__respond_to_event",
+      "mcp__Google_Drive__share_file",
+      "mcp__Dropbox__create_shared_link",
+      "mcp__Dropbox__move",
+      "mcp__Notion__notion-move-pages"
+    ]
+  }
+}
