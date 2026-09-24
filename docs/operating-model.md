@@ -43,7 +43,7 @@ Automatiseren via Claude Routines kan zodra een agent een pilot doorstaan heeft.
 |---|---|---|---|
 | 1 | admin-legal-compliance | Data (Cashfeed) + 7 skills al beschikbaar → snelste meetbare waarde, laagste risico (read-only) | 100% deadlines in kalender; ≥1 concrete besparing/risico gevonden; 0 onterechte bevindingen die de accountant afkeurt |
 | 2 | investment-manager | Grootste strategische hefboom; dealflow zit al in mail | Triage < 24u per deal; Bart besteedt tijd enkel aan "diepgaand"-deals |
-| 3 | fo-manager | **Geblokkeerd op data**: bank/custodian-rapporten en vastgoedregister ontbreken nog | Kwartaalrapport in < 1u, cijfers aansluitend op bankafschriften |
+| 3 | fo-manager | Registers en rapporten bestaan (Notion + Dropbox), maar er zijn dubbele bronnen en geen goedgekeurd beleid → eerst opschonen (zie governance §8) | Kwartaalrapport per 30/09 sluit aan op bankafschriften |
 | 4 | lifestyle-manager | Laag risico, maar vraagt kalibratie van voorkeuren | Minder ad-hoc onderbrekingen; weekdigest wordt effectief gebruikt |
 
 ## 5. Faalpunten en mitigatie
