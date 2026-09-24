@@ -18,9 +18,10 @@
 |---|---|---|
 | Aankoop nieuw pand | investment-manager | admin (structuur, registratierechten), fo (impact allocatie/cash) |
 | Pand na akte | fo-manager | admin (huurcontracten, verzekering) |
-| Directe participatie (PE/VC) | investment-manager (volledige levenscyclus) | fo (waardering in consolidatie) |
-| Fonds-/bankportefeuille | fo-manager | investment (bij nieuwe fondsselectie) |
-| Kapitaaloproep / follow-on | investment-manager | fo (liquiditeit), admin (boeking) |
+| Directe participatie / angel | investment-manager (volledige levenscyclus) | fo (waardering in consolidatie) |
+| Bestaande PE-fondsverbintenis (capital calls, NAV, distributies) | fo-manager | admin (boeking) |
+| Nieuwe fondsverbintenis / follow-on-beslissing | investment-manager | fo (liquiditeitsimpact) |
+| Private-banking-mandaten | fo-manager | — |
 | Privé-uitgave via vennootschap | lifestyle signaleert | admin beslist fiscale behandeling |
 | Contract (elk domein) | domein-eigenaar | admin (juridische screening + register) |
 
@@ -65,7 +66,11 @@ Automatiseren via Claude Routines kan zodra een agent een pilot doorstaan heeft.
   (bv. `mcp__claude_ai_Notion`); pas dan tools- en permissielijsten aan.
 - Server-niveau toegang geeft ook schrijf-tools; de rem zit in de `ask`/`deny`-regels.
 
-## 7. Open beslissingen (voor Bart)
+## 7. Governance per agent
+
+- `fo-manager`: `docs/governance/fo-manager.md` (voorstel v0.1)
+
+## 8. Open beslissingen (voor Bart)
 
 1. **Beleggingsbeleid (IPS)**: strategische allocatie, bandbreedtes, max. ticket per deal,
    max. concentratie. Zonder IPS kunnen fo- en investment-manager niet objectief toetsen.

@@ -27,6 +27,12 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
 
 ## Governance — harde regels (gelden voor elke agent)
 
+Hoogste kader: de **🤖 Agent Operating Rules** in Notion
+(https://app.notion.com/p/3cacb4db7d9f819fa780dc0b25914a26): autonomieniveaus
+AUTO / SUGGEST / APPROVAL, escalatiedrempels, monitoring-matrix (één flow = één eigenaar),
+Documentsync en security-melding. De regels hieronder zijn een aanvulling; bij conflict
+gaat Notion voor. Governance per agent: `docs/governance/`.
+
 1. **Voorbereiden, niet uitvoeren.** Agents maken drafts, analyses en voorstellen. Niets
    verlaat het family office (mail, betaling, order, handtekening, goedkeuring,
    inschrijving) zonder expliciete "ja" van Bart in dezelfde sessie. `.claude/settings.json`
@@ -56,7 +62,7 @@ Taal: Nederlands, tenzij de bron of de tegenpartij Engels vereist. Beknopt, geen
 ## Systemen
 
 - **Notion** — kennis, registers (vastgoed, participaties, dealflow, contracten), beslissingslog.
-- **Todoist** — acties en deadlines (één project per agent-domein).
+- **Todoist** — acties en deadlines. Escalatie = Todoist-taak met deadline (één kanaal).
 - **Cashfeed** — boekhouding, aankoopfacturen, banktransacties.
 - **Gmail / Microsoft 365 / Google Calendar** — communicatie en agenda.
 - **Google Drive / Dropbox / SharePoint** — documenten en data room.
