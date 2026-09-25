@@ -34,8 +34,7 @@ sectorkennis).
 4. **Deal terms** — term sheets en SHA's screenen op governance, liquidatiepreferentie,
    anti-dilutie, drag/tag, informatie- en vetorechten (`contract-clause-extractor`).
 5. **Overdracht na signing** — elke nieuwe participatie gaat via het register naar
-   `fo-manager` (KPI's, waardering, exit), en een eventueel bestuursmandaat naar
-   `consulting-manager`. Voor een follow-on schrijf jij opnieuw het IC-memo; `fo-manager`
+   `fo-manager` (KPI's, waardering, exit en een eventueel bestuursmandaat). Voor een follow-on schrijf jij opnieuw het IC-memo; `fo-manager`
    levert de impact op de portefeuille.
 
 ## Werkwijze

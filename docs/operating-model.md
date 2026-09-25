@@ -23,8 +23,8 @@
 | Aankoop nieuw pand | investment-manager | admin (structuur, registratierechten), fo (impact allocatie/cash) |
 | Pand na akte | fo-manager | admin (huurcontracten, verzekering) |
 | Directe participatie / angel: tot signing | investment-manager | admin (structuur, NDA) |
-| Directe participatie / angel: na signing | fo-manager (KPI's, waardering, exit) | consulting (bestuursmandaat), investment (IC-memo bij follow-on) |
-| Bestuursmandaat (boardvergaderingen, actiepunten, deadlines) | consulting-manager | fo (cijfers participatie), Bman (agenda) |
+| Directe participatie / angel: na signing | fo-manager (KPI's, waardering, exit, bestuursmandaat) | investment (IC-memo bij follow-on) |
+| Bestuursmandaat zonder participatie van Mafinco | consulting-manager | Bman (agenda) |
 | Wealth planning en asset allocation | fo-manager | admin (successie, structuur) |
 | Bestaande PE-fondsverbintenis (capital calls, NAV, distributies) | fo-manager | admin (boeking) |
 | Nieuwe fondsverbintenis / follow-on-beslissing | investment-manager | fo (liquiditeitsimpact) |
@@ -67,6 +67,11 @@ goedgekeurd. Statusflow in het register:
 | Feedback Bart | Letterlijk Barts antwoord ("ok", bijsturing of "bespreken") |
 | Staande aanpak | Bij terugkerende taken: eenmaal goedgekeurd, dan geldt de aanpak voor elke volgende keer (G4) |
 | Nazichttijd (min) | Geschatte tijd die Bart nodig heeft om het resultaat na te kijken |
+
+**Intern uitvoeren = melden.** Voert een agent binnen een goedgekeurde aanpak interne stappen
+uit in zijn eigen registers, dan gaat het item naar *Klaar* met het resultaat, en verschijnt het in
+de briefing onder "Ter info — intern uitgevoerd". Bart hoeft niets te doen, maar kan
+"terugdraaien" of "bespreken" zeggen.
 
 **Hoe Bart de aanpakken ziet.** De CoS draait op werkdagen om 07:26, 11:56 en 16:56 een
 ronde over het register en schrijft het resultaat op de pagina "Agent-dagronde — status".

@@ -15,7 +15,7 @@ Mandaat: `docs/governance/chief-of-staff.md`.
 | **Scout** | `investment-manager` | **Nieuwe** allocaties tot signing: dealflow, screening, due diligence, IC-memo's, term sheets, follow-ons. | opus |
 | **Lex** | `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
 | **Jules** | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
-| **Nova** | `consulting-manager` | Consulting & Board Manager: opdrachten en bestuursmandaten; afspraken, communicatie, taken en deadlines voorbereiden en opvolgen. | opus |
+| **Nova** | `consulting-manager` | Consulting & Board Manager: opdrachten en bestuursmandaten zonder participatie; afspraken, communicatie, taken en deadlines voorbereiden en opvolgen. | opus |
 
 **Buiten deze repo — Bman** (sinds 24/09/2026 een Claude-rol via de "Bman ·"-cloudroutines,
 tot herroeping; Manus gepauzeerd): eigenaar van de dagelijkse flows — agenda, mailtriage,
@@ -35,7 +35,8 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
 
 1. Bepaal het domein. Twijfel tussen `fo-manager` en `investment-manager`? Vraag: *zit het
    actief al in het vermogen (na signing)?* Ja → `fo-manager`. Nee → `investment-manager`.
-   Een bestuursmandaat (boardvergaderingen, actiepunten) → `consulting-manager`.
+   Bestuursmandaat in een participatie van Mafinco → `fo-manager`; zonder participatie →
+   `consulting-manager`.
 2. Elke vraag met een fiscale, juridische of boekhoudkundige component gaat **ook** langs
    `admin-legal-compliance` (bv. vastgoedaankoop → structurering + registratierechten).
 3. Onafhankelijke deelvragen: agents parallel starten. Afhankelijke: sequentieel.
