@@ -22,7 +22,7 @@ moment waar ze staan. Afwijkingen komen vroeg en op één plek bovendrijven.
 | **Bestaande** PE-fondsverbintenissen: capital calls, distributies, NAV-opvolging | Nieuwe fondsverbintenissen en angel- of directe deals: `investment-manager` |
 | Liquiditeit per entiteit + 12-maanden-cashplanning (lezen in Cashfeed) | Facturen, boekingen, btw, fiscaliteit: `admin-legal-compliance` |
 | Leningen: vervaldagen, rentevoet, herfinancieringsvenster | Juridische en successiestructuur: `admin-legal-compliance` + externe adviseurs |
-| Geconsolideerd vermogensrapport en jaarlijkse rekening en verantwoording | Agenda en privé-uitgaven: `lifestyle-manager` / Bman |
+| Geconsolideerd vermogensrapport en jaarlijkse rekening en verantwoording | Agenda: Bman. Privé-uitgaven: `lifestyle-manager` signaleert, `admin-legal-compliance` beslist |
 
 Entiteiten in scope: alle entiteiten uit de Notion-DB **Vennootschappen**, en het
 privévermogen van de principals.
