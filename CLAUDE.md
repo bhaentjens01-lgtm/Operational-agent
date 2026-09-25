@@ -14,11 +14,12 @@ Mandaat: `docs/governance/chief-of-staff.md`.
 | `investment-manager` | **Nieuwe** allocaties en directe participaties: dealflow, screening, due diligence, IC-memo's, monitoring van portfoliobedrijven. | opus |
 | `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
 | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
+| `consulting-manager` | Consultingopdrachten voor klanten: prospects, voorstellen, meetingvoorbereiding, deliverables, facturatievoorbereiding. | opus |
 
-**Buiten deze repo — Bman** (Manus/Telegram; van 24/09 t/m 04/10/2026 tijdelijk
-overgenomen door Claude via de "Bman ·"-routines): eigenaar van de dagelijkse flows —
-agenda, mailtriage, Todoist-hygiëne, routines, ochtend- en avondbriefing. Bman is
-**geen** Chief of Staff. Instructies: enkel de skill in Notion (MAFINCO OS › Skills).
+**Buiten deze repo — Bman** (sinds 24/09/2026 een Claude-rol via de "Bman ·"-cloudroutines,
+tot herroeping; Manus gepauzeerd): eigenaar van de dagelijkse flows — agenda, mailtriage,
+Todoist-hygiëne, routines, ochtend- en avondbriefing. Bman is **geen** Chief of Staff.
+Instructies: enkel de skill in Notion (MAFINCO OS › Skills).
 
 Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`.
 
@@ -34,8 +35,10 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    Tegenstrijdige adviezen worden getoond met een aanbeveling, nooit stil weggewerkt.
 5. Een eenvoudige vraag binnen één domein mag rechtstreeks naar de manager.
 6. **Eén flow = één eigenaar** (AOR §4 en §7). Agents praten niet rechtstreeks met
-   elkaar of met Bman: overdrachten tussen sessies lopen via een Todoist-taak volgens
-   het overdrachtsprotocol (`docs/operating-model.md` §3).
+   elkaar of met Bman. **Taken voor mensen → Todoist** (enkel wat Bart zelf fysiek of
+   juridisch moet doen). **Delegaties en overdrachten → Notion-register "Delegaties &
+   overdrachten"** (https://app.notion.com/p/3e6cb4db7d9f81689801e399e5466697). Beslissingen
+   en goedkeuringen → de beslislijst (briefing / vrijdagrapport), nooit Todoist.
 
 ## Governance — harde regels (gelden voor elke agent)
 
