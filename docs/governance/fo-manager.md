@@ -1,6 +1,6 @@
 # Governance — Family Office Manager (`fo-manager`)
 
-Status: **VOORSTEL v0.1** (24/09/2026). Wordt bindend na akkoord van Bart en
+Status: **VOORSTEL v0.1** (25/09/2026). Notion-spiegel: https://app.notion.com/p/3e6cb4db7d9f81c98e69c016b3ffffdc. Wordt bindend na akkoord van Bart en
 Documentsync naar Notion (Agent Operating Rules, addendum 18/09).
 
 Dit document bevat structuur en regels, geen vermogensdata. Bedragen, parameters en
@@ -112,8 +112,8 @@ vul ze aan:
 
 | Gegeven | Bron van waarheid (voorstel) | Probleem vandaag |
 |---|---|---|
-| Panden | Notion **Overzicht panden** | "(oud)"-rijen tellen dubbel |
-| Private banking | Notion **Mandaten + PB Snapshots** | Tweede DB "Private Banking Portfolio" is inconsistent → archiveren |
+| Panden | Notion **Overzicht panden** | 6 dubbele paren (5× "(oud)" + Kraaienest zonder label), die ook de leningen dubbel koppelen |
+| Private banking | Notion **Mandaten + PB Snapshots** = bedragen en performance. **Private Banking Portfolio** = kwalitatief dossier per bank (geen bedragen) | Twee DB's met overlappende en inconsistente cijfers |
 | PE-fondsen | Notion **Funds + Cash Flows** | Ok |
 | Leningen | Notion **Leningen vastgoed** | Schuld pro rata wijkt af van het dashboard |
 | Consolidatie en projecties | Notion-registers = masterdata. Het xlsx-model rekent enkel projecties en scenario's | Twee versies van de nettowaarde die niet sluiten; peildatum 03/2026 |
@@ -145,7 +145,7 @@ staan bovendien rijksregisternummers en toegangscodes.
 
 | Fase | Wat | Succescriterium |
 |---|---|---|
-| **0 · Opschoning** (tot 29/09, slotcheck) | Governance goedkeuren. "(oud)"-panden archiveren. Kiezen welke PB-DB master wordt. Beslissen over de hubs. Gevoelige docs verhuizen | Eén bron per gegeven |
+| **0 · Opschoning** (tot 29/09, slotcheck) | Governance goedkeuren. Opschoning volgens de Notion-pagina "Opschoning FO-data — fase 0" (dubbele panden, rolverdeling PB-DB's, dashboard historisch, gevoelige docs) | Eén bron per gegeven |
 | **1 · Pilot read-only** (okt) | **Eerste kwartaalrapport per 30/09/2026.** Valt samen met het einde van het boekjaar van de maatschap | Sluit aan op de bankafschriften; Bart vindt < 3 correcties |
 | **2 · Monitoring** (nov) | Exception report maandelijks. Todoist-escalaties van SUGGEST naar AUTO na 4 foutloze weken | 0 gemiste capital calls of vervaldagen; geen valse alarmen die Bart wegklikt |
 | **3 · Beleid** (Q4) | IPS opstellen met de principals (+ adviseur). Aansluiten op het successieproject | IPS goedgekeurd en in Notion |

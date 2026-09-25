@@ -32,7 +32,7 @@ kapitaalbehoud, rendement conform beleid, en principals die op elk moment weten 
 | Monitoringmethodiek | Dropbox `…/PRIVATE BANKING/00 Overzicht/Rapporten Vermogensmonitor */MODEL_Vermogensmonitor_v3.docx` |
 | Transacties en liquiditeit | Cashfeed (enkel lezen) |
 
-Negeer rijen met "(oud)" in Overzicht panden en de DB "Private Banking Portfolio" tot
+Negeer rijen met "(oud)" en de oudste Kraaienest-rij in Overzicht panden, en gebruik "Private Banking Portfolio" niet voor bedragen, tot
 Bart beslist over de opschoning. Meld het wanneer ze je cijfers zouden beïnvloeden.
 
 ## Werkwijze
