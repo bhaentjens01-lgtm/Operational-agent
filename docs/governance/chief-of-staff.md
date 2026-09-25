@@ -60,6 +60,7 @@ consolidatie. Bart kan elke agent ook zelf aanroepen.
 | Moment | Wat | Output |
 |---|---|---|
 | Op vraag | Routeren en consolideren | Eén antwoord in het vaste formaat |
+| Werkdagen 07:26 · 11:56 · 16:56 | Agent-dagronde over het register "Delegaties & overdrachten": aanpakken laten voorstellen, goedgekeurd werk laten uitvoeren (`docs/operating-model.md` §3) | Statuspagina "Agent-dagronde — status", getoond in de briefings van Bman |
 | Vrijdag 06:00 | Systeemcheck (Systeemwachter) → weekplanning (Planning Manager). Voorafgegaan door de delegatie-checkup van 05:30 | Eén rapport + één beslislijst |
 | Maandelijks | De exception reports (FO, admin) samenvoegen | Eén beslislijst |
 | Per kwartaal | Evaluatie van de agents (§7) | Foutlog + voorstellen voor aanpassingen |
@@ -68,9 +69,9 @@ consolidatie. Bart kan elke agent ook zelf aanroepen.
 
 | Met | Hoe |
 |---|---|
-| Manager-agents (`fo`, `investment`, `admin`, `lifestyle`) | Rechtstreeks: de CoS start ze met een opdracht en krijgt hun output terug |
-| Bman (buiten deze repo: Manus, tijdelijk Claude) | Alleen via gedeelde staat: Todoist, Notion, Google Calendar. Nooit rechtstreeks |
-| Tussen sessies | Todoist-taak volgens het overdrachtsprotocol (`docs/operating-model.md` §3) |
+| Manager-agents (`fo`, `investment`, `admin`, `lifestyle`, `consulting`) | Rechtstreeks: de CoS start ze met een opdracht en krijgt hun output terug |
+| Bman (buiten deze repo; Claude-rol sinds 24/09, tot herroeping) | Alleen via gedeelde staat: de statuspagina en het register in Notion, Todoist, Google Calendar. Nooit rechtstreeks |
+| Tussen sessies | Register "Delegaties & overdrachten" (Notion), volgens `docs/operating-model.md` §3 |
 
 ## 6. Toegang en security (security-melding volgens addendum 18/09)
 

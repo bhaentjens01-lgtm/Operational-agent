@@ -116,7 +116,7 @@ vul ze aan:
 | Private banking | Notion **Mandaten + PB Snapshots** | Tweede DB "Private Banking Portfolio" is inconsistent → archiveren |
 | PE-fondsen | Notion **Funds + Cash Flows** | Ok |
 | Leningen | Notion **Leningen vastgoed** | Schuld pro rata wijkt af van het dashboard |
-| Consolidatie en projecties | Notion-registers = masterdata. Het xlsx-model rekent enkel projecties en scenario's | Twee versies van de nettowaarde die niet sluiten; peildatum 03/2026 |
+| Consolidatie en projecties | Het xlsx-model is masterdata (beslissing Bart 25/09, X23). Notion wordt er pas na akkoord van Bart mee gesynchroniseerd | Twee versies van de nettowaarde die niet sluiten; peildatum 03/2026 |
 | Originele documenten | Dropbox, gestandaardiseerde submappen per pand en per bank | Oostduinkerke, Nijsstraat, UBS, Mercier en KBC wijken af |
 | Transacties en liquiditeit | Cashfeed | Geen register per rekening; map CASH leeg |
 
