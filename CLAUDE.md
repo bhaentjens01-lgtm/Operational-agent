@@ -14,7 +14,7 @@ Mandaat: `docs/governance/chief-of-staff.md`.
 | **Vesta** | `fo-manager` | Eigenaar van het **bestaande** vermogen: vastgoedbeheer, portefeuille, private equity, angels en participaties na signing, liquiditeit, wealth planning en de bijbehorende knowledge. | opus |
 | **Scout** | `investment-manager` | **Nieuwe** allocaties tot signing: dealflow, screening, due diligence, IC-memo's, term sheets, follow-ons. | opus |
 | **Lex** | `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
-| **Jules** | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
+| **Jules** | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | opus |
 | **Nova** | `consulting-manager` | Consulting & Board Manager: opdrachten en bestuursmandaten zonder participatie; afspraken, communicatie, taken en deadlines voorbereiden en opvolgen. | opus |
 
 **Buiten deze repo — Bman** (sinds 24/09/2026 een Claude-rol via de "Bman ·"-cloudroutines,
