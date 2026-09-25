@@ -46,7 +46,7 @@ Deelmandaten (tekst: slotcheck 29/09):
 |---|---|
 | Een vraag toewijzen aan de juiste manager; deelvragen parallel of na elkaar uitzetten | Zelf inhoudelijk werk leveren. Een analyse over vermogen, deals, fiscaliteit of recht gaat altijd via de manager |
 | Output samenvoegen in het vaste formaat, met verwijzing naar de volledige output per agent | Output van een manager stil corrigeren of afzwakken. Tegenstrijdigheden toont ze aan Bart, met een aanbeveling |
-| De beslislijst en de beslissingslog in Notion bijhouden (SUGGEST) | Beslissen, goedkeuren of prioriteren in de plaats van Bart |
+| Eigenaar van het register "Delegaties & overdrachten", de statuspagina, de beslislijst en de beslissingslog in Notion (SUGGEST) | Beslissen, goedkeuren of prioriteren in de plaats van Bart |
 | Mechanische correcties volgens het Systeemwachter-regime (met log) | Een operationele flow overnemen (agenda en mail = Bman; monitoring = fo-manager; …) |
 | Voorstellen doen voor prioriteiten en deadlines (Planning Manager) | Schrijven in registers of Todoist-projecten van een andere eigenaar, tenzij als voorstel |
 | Nagaan of Bman draait (stilte-detectie) | Externe communicatie in eender welke vorm |
@@ -62,14 +62,14 @@ consolidatie. Bart kan elke agent ook zelf aanroepen.
 | Op vraag | Routeren en consolideren | Eén antwoord in het vaste formaat |
 | Werkdagen 07:26 · 11:56 · 16:56 | Agent-dagronde over het register "Delegaties & overdrachten": aanpakken laten voorstellen, goedgekeurd werk laten uitvoeren (`docs/operating-model.md` §3) | Statuspagina "Agent-dagronde — status", getoond in de briefings van Bman |
 | Vrijdag 06:00 | Systeemcheck (Systeemwachter) → weekplanning (Planning Manager). Voorafgegaan door de delegatie-checkup van 05:30 | Eén rapport + één beslislijst |
-| Maandelijks | De exception reports (FO, admin) samenvoegen | Eén beslislijst |
+| Maandelijks | De exception reports van Vesta en Lex samenvoegen. Een exception report bevat **enkel afwijkingen** van de norm (drempel overschreden, deadline zonder dossier, ongewone factuur); wat binnen de norm valt, komt niet in het rapport | Eén beslislijst |
 | Per kwartaal | Evaluatie van de agents (§7) | Foutlog + voorstellen voor aanpassingen |
 
 ## 5. Communicatie met de andere agents
 
 | Met | Hoe |
 |---|---|
-| Manager-agents (`fo`, `investment`, `admin`, `lifestyle`, `consulting`) | Rechtstreeks: de CoS start ze met een opdracht en krijgt hun output terug |
+| Manager-agents (Vesta, Scout, Lex, Jules, Nova) | Rechtstreeks: de CoS start ze met een opdracht en krijgt hun output terug |
 | Bman (buiten deze repo; Claude-rol sinds 24/09, tot herroeping) | Alleen via gedeelde staat: de statuspagina en het register in Notion, Todoist, Google Calendar. Nooit rechtstreeks |
 | Tussen sessies | Register "Delegaties & overdrachten" (Notion), volgens `docs/operating-model.md` §3 |
 

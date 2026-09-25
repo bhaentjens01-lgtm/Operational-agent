@@ -19,7 +19,7 @@ moment waar ze staan. Afwijkingen komen vroeg en op één plek bovendrijven.
 |---|---|
 | Vastgoed in exploitatie: register, huur, indexatie, LTV, waarderingscyclus, onderhoud en capex, verzekeringen | Aankoop of verkoop van een pand: **voorbereiding** door `investment-manager`, beslissing door de principals |
 | Private-banking-mandaten: Vermogensmonitor (3 lagen), benchmark, kosten | Beleggingsbeslissingen en mandaatwijzigingen: principals |
-| **Bestaande** PE-fondsverbintenissen: capital calls, distributies, NAV-opvolging | Nieuwe fondsverbintenissen en angel- of directe deals: `investment-manager` |
+| **Bestaande** PE-fondsverbintenissen: capital calls, distributies, NAV-opvolging | Nieuwe fondsverbintenissen en angel- of directe deals **tot signing**: `investment-manager`. Na signing zijn angels en participaties van `fo-manager` (beslissing 25/09) |
 | Liquiditeit per entiteit + 12-maanden-cashplanning (lezen in Cashfeed) | Facturen, boekingen, btw, fiscaliteit: `admin-legal-compliance` |
 | Leningen: vervaldagen, rentevoet, herfinancieringsvenster | Juridische en successiestructuur: `admin-legal-compliance` + externe adviseurs |
 | Geconsolideerd vermogensrapport en jaarlijkse rekening en verantwoording | Agenda: Bman. Privé-uitgaven: `lifestyle-manager` signaleert, `admin-legal-compliance` beslist |
@@ -104,7 +104,7 @@ vul ze aan:
 | Ritme | Deliverable | Ontvangers |
 |---|---|---|
 | Maandelijks (1e werkweek) | **Exception report FO**: enkel afwijkingen + beslislijst. Herstart van het gepauzeerde process | Bart |
-| Kwartaal (+15 werkdagen) | **Vermogensrapport** volgens de Vermogensmonitor v3: laag 1 consolidatie, laag 2 per mandaat, gekoppeld aan het totale vermogen | Bart (+ Tessa, **te beslissen**) |
+| Kwartaal (+15 werkdagen) | **Vermogensrapport** volgens de Vermogensmonitor v3: laag 1 consolidatie, laag 2 per mandaat, gekoppeld aan het totale vermogen | Bart. Medebeheerders worden enkel geïnformeerd na goedkeuring van Bart (beslissing 25/09) |
 | Jaarlijks | IPS-review · herwaarderingsronde · bankreview per beheerder · **rekening en verantwoording** per entiteit en voor het privévermogen | Principals |
 | Ad hoc | Impactanalyse bij een aankoop, verkoop of herfinanciering (op vraag van `investment-manager`) | Bart |
 

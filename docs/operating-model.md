@@ -22,7 +22,10 @@
 |---|---|---|
 | Aankoop nieuw pand | investment-manager | admin (structuur, registratierechten), fo (impact allocatie/cash) |
 | Pand na akte | fo-manager | admin (huurcontracten, verzekering) |
-| Directe participatie / angel | investment-manager (volledige levenscyclus) | fo (waardering in consolidatie) |
+| Directe participatie / angel: tot signing | investment-manager | admin (structuur, NDA) |
+| Directe participatie / angel: na signing | fo-manager (KPI's, waardering, exit) | consulting (bestuursmandaat), investment (IC-memo bij follow-on) |
+| Bestuursmandaat (boardvergaderingen, actiepunten, deadlines) | consulting-manager | fo (cijfers participatie), Bman (agenda) |
+| Wealth planning en asset allocation | fo-manager | admin (successie, structuur) |
 | Bestaande PE-fondsverbintenis (capital calls, NAV, distributies) | fo-manager | admin (boeking) |
 | Nieuwe fondsverbintenis / follow-on-beslissing | investment-manager | fo (liquiditeitsimpact) |
 | Private-banking-mandaten | fo-manager | — |

@@ -11,11 +11,11 @@ Mandaat: `docs/governance/chief-of-staff.md`.
 | Roepnaam | Agent (technisch ID) | Mandaat (één zin) | Model |
 |---|---|---|---|
 | **Atlas** | hoofdsessie (`cos`) | Chief of Staff: routeren, consolideren, systeem bewaken. | — |
-| **Vesta** | `fo-manager` | Beheer en bewaking van het **bestaande** vermogen: vastgoed in exploitatie + roerende beleggingen + liquiditeit. | opus |
-| **Scout** | `investment-manager` | **Nieuwe** allocaties en directe participaties: dealflow, screening, due diligence, IC-memo's, monitoring van portfoliobedrijven. | opus |
+| **Vesta** | `fo-manager` | Eigenaar van het **bestaande** vermogen: vastgoedbeheer, portefeuille, private equity, angels en participaties na signing, liquiditeit, wealth planning en de bijbehorende knowledge. | opus |
+| **Scout** | `investment-manager` | **Nieuwe** allocaties tot signing: dealflow, screening, due diligence, IC-memo's, term sheets, follow-ons. | opus |
 | **Lex** | `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
 | **Jules** | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
-| **Nova** | `consulting-manager` | Consultingopdrachten voor klanten: prospects, voorstellen, meetingvoorbereiding, deliverables, facturatievoorbereiding. | opus |
+| **Nova** | `consulting-manager` | Consulting & Board Manager: opdrachten en bestuursmandaten; afspraken, communicatie, taken en deadlines voorbereiden en opvolgen. | opus |
 
 **Buiten deze repo — Bman** (sinds 24/09/2026 een Claude-rol via de "Bman ·"-cloudroutines,
 tot herroeping; Manus gepauzeerd): eigenaar van de dagelijkse flows — agenda, mailtriage,
@@ -34,8 +34,8 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
 ## Routering (Chief of Staff)
 
 1. Bepaal het domein. Twijfel tussen `fo-manager` en `investment-manager`? Vraag: *zit het
-   actief al in het vermogen?* Ja → `fo-manager`. Nee (of het is een directe participatie
-   die actief opgevolgd wordt) → `investment-manager`.
+   actief al in het vermogen (na signing)?* Ja → `fo-manager`. Nee → `investment-manager`.
+   Een bestuursmandaat (boardvergaderingen, actiepunten) → `consulting-manager`.
 2. Elke vraag met een fiscale, juridische of boekhoudkundige component gaat **ook** langs
    `admin-legal-compliance` (bv. vastgoedaankoop → structurering + registratierechten).
 3. Onafhankelijke deelvragen: agents parallel starten. Afhankelijke: sequentieel.
@@ -47,6 +47,12 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    juridisch moet doen). **Delegaties en overdrachten → Notion-register "Delegaties &
    overdrachten"** (https://app.notion.com/p/3e6cb4db7d9f81689801e399e5466697). Beslissingen
    en goedkeuringen → de beslislijst (briefing / vrijdagrapport), nooit Todoist.
+
+## Bronnen — volgorde (geldt voor het hele team)
+
+1. **Notion**: registers, knowledge, werkpagina's. 2. **Dropbox**: originele documenten.
+3. Pas als het daar niet te vinden is: Cashfeed, mail, Drive, SharePoint, en daarna het web.
+   Vermeld altijd waar je het gevonden hebt.
 
 ## Governance — harde regels (gelden voor elke agent)
 

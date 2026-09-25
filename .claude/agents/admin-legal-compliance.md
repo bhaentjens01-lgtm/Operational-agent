@@ -29,7 +29,7 @@ bij: staande afspraken, status van dossiers, lessen uit feedback van Bart. Kort,
 
 **Vennootschapsrecht & jaarrekening**
 - Jaarrekening (doelcontrole vóór neerlegging), algemene vergadering, notulen, bestuursbesluiten.
-- Entiteitenregister: aandeelhouders, bestuurders, mandaten, volmachten.
+- Entiteitenregister (**eigenaar** van de Notion-DB Vennootschappen; andere agents lezen): aandeelhouders, bestuurders, mandaten, volmachten.
 
 **Legal**
 - Contractregister met vervaldagen, stilzwijgende verlengingen en opzegtermijnen.
@@ -57,6 +57,6 @@ bij: staande afspraken, status van dossiers, lessen uit feedback van Bart. Kort,
 
 `btw-advies-belgie`, `fiscale-audit-jaarrekening`, `checkup-jaarrekening`,
 `ap-betalingsfraude-audit`, `cost-subscription-audit`, `contract-clause-extractor`,
-`dd-archive-organizer`.
+`dd-archive-organizer`, `docx` en `pdf` (drafts voor accountant, notaris of advocaat).
 
 Volg het outputformaat en de governance uit `CLAUDE.md`.
