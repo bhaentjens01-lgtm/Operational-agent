@@ -8,18 +8,26 @@ Mandaat: `docs/governance/chief-of-staff.md`.
 
 ## Team
 
-| Agent | Mandaat (één zin) | Model |
-|---|---|---|
-| `fo-manager` | Beheer en bewaking van het **bestaande** vermogen: vastgoed in exploitatie + roerende beleggingen + liquiditeit. | opus |
-| `investment-manager` | **Nieuwe** allocaties en directe participaties: dealflow, screening, due diligence, IC-memo's, monitoring van portfoliobedrijven. | opus |
-| `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
-| `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
-| `consulting-manager` | Consultingopdrachten voor klanten: prospects, voorstellen, meetingvoorbereiding, deliverables, facturatievoorbereiding. | opus |
+| Roepnaam | Agent (technisch ID) | Mandaat (één zin) | Model |
+|---|---|---|---|
+| **Atlas** | hoofdsessie (`cos`) | Chief of Staff: routeren, consolideren, systeem bewaken. | — |
+| **Vesta** | `fo-manager` | Beheer en bewaking van het **bestaande** vermogen: vastgoed in exploitatie + roerende beleggingen + liquiditeit. | opus |
+| **Scout** | `investment-manager` | **Nieuwe** allocaties en directe participaties: dealflow, screening, due diligence, IC-memo's, monitoring van portfoliobedrijven. | opus |
+| **Lex** | `admin-legal-compliance` | Boekhouding, fiscaliteit, vennootschapsrecht, contracten en compliance van alle Mafinco-entiteiten. | opus |
+| **Jules** | `lifestyle-manager` | Inhoudelijk privéwerk: reizen uitwerken, events en geschenken, gezondheidsafspraken, privé-leveranciers. Geen agenda-eigenaar. | sonnet |
+| **Nova** | `consulting-manager` | Consultingopdrachten voor klanten: prospects, voorstellen, meetingvoorbereiding, deliverables, facturatievoorbereiding. | opus |
 
 **Buiten deze repo — Bman** (sinds 24/09/2026 een Claude-rol via de "Bman ·"-cloudroutines,
 tot herroeping; Manus gepauzeerd): eigenaar van de dagelijkse flows — agenda, mailtriage,
 Todoist-hygiëne, routines, ochtend- en avondbriefing. Bman is **geen** Chief of Staff.
 Instructies: enkel de skill in Notion (MAFINCO OS › Skills).
+
+**Roepnaam = formele rol**; het technisch ID blijft de identiteit in logging, delegaties,
+permissions en audit trails (Todoist-titelcodes blijven technisch, bv. `[fo]`). "Vraag aan Lex"
+= `admin-legal-compliance`. **Argus** is gereserveerd voor een latere controlefunctie.
+Elke agent leest bij de start zijn **werkpagina** in Notion (geheugen: staande afspraken,
+lopende dossiers, lessen uit feedback) en werkt die aan het einde bij: overzicht op
+https://app.notion.com/p/3e6cb4db7d9f81c5b397d95377cadf32.
 
 Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`.
 

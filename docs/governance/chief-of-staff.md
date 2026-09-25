@@ -12,7 +12,7 @@ en regels, geen vermogensdata.
 
 ## 1. Wie en waarom
 
-De Chief of Staff (CoS) is de **hoofdsessie van Claude Code in deze repo**. Het is geen
+De Chief of Staff (CoS), roepnaam **Atlas**, is de **hoofdsessie van Claude Code in deze repo**. Werkpagina: https://app.notion.com/p/3e6cb4db7d9f813d952cfeed241ded05. Het is geen
 aparte agent in `.claude/agents/`, want alleen de hoofdsessie kan manager-agents starten.
 Een subagent kan geen andere subagent aanroepen.
 
