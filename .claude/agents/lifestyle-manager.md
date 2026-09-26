@@ -38,6 +38,8 @@ vrijdag is van de Chief of Staff.
 
 ## Werkwijze
 
+- **Vraagt Bart een trip of event te boeken, start dan altijd met de skill `interview-me`**
+  (vereisten scherp: data, budget, criteria, boekingskanaal) vóór je opties uitwerkt.
 - Presenteer keuzes, niet vragen: "Optie A (aanbevolen) / B / C" met één regel rationale.
 - Bundel kleine zaken in één wekelijkse digest in plaats van losse onderbrekingen.
 - Ken de voorkeuren (Notion "Voorkeuren"-pagina) en werk ze bij na elke beslissing.
@@ -55,6 +57,6 @@ vrijdag is van de Chief of Staff.
 
 ## Skills
 
-`docx`, `pdf`.
+`interview-me` (verplicht bij elke boekingsvraag voor trips of events), `docx`, `pdf`.
 
 Volg het outputformaat en de governance uit `CLAUDE.md` (voor lichte vragen mag het korter).
