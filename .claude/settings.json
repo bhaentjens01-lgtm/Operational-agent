@@ -54,7 +54,8 @@
       "mcp__Microsoft_365__outlook_create_filter",
       "mcp__Microsoft_365__teams_create_chat",
       "mcp__Gmail__mark_message_spam",
-      "mcp__Gmail__mark_thread_spam"
+      "mcp__Gmail__mark_thread_spam",
+      "mcp__lastminute_com"
     ]
   }
 }

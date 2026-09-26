@@ -85,6 +85,7 @@ zodat Bart het overzicht behoudt:
 | Element | Inhoud |
 |---|---|
 | Titelcode | `[eigenaar]` vooraan, bv. `[fo]`, `[admin]`, `[consult]`, `[naam]` |
+| Verwijzing | Link naar het register-item (bv. `DEL-12`) in de beschrijving; geldt ook voor taken die personen uitvoeren |
 | Label | `bij-agent` = de agent is aan zet; `nazicht` = Bart is aan zet |
 | Duur | Barts nazichttijd, niet de uitvoeringstijd (standaard 15 min) |
 | Filters | "Mijn werk" (zonder `bij-agent`) en "Bij agents" |
@@ -129,7 +130,7 @@ Automatiseren via Claude Routines kan zodra een agent een pilot doorstaan heeft.
 | Data-lek via git | Geen vermogensdata in repo; `.gitignore`; Notion als bron van waarheid |
 | Overlap/tegenstrijdige adviezen FO vs. investment | Grensafspraken (§2); Chief of Staff toont het conflict met aanbeveling |
 | Twee agents in dezelfde flow (bv. agenda) | Eén eigenaar per flow (AOR §4); de rest leest of vraagt aan via taak |
-| Overdracht gaat verloren tussen sessies of platformen | Todoist als enige wachtrij, vast taakformaat (§3) |
+| Overdracht gaat verloren tussen sessies of platformen | Register "Delegaties & overdrachten" als wachtrij; de taak blijft zichtbaar in Todoist met titelcode, label en verwijzing naar het register-item (§3) |
 | CoS groeit uit tot super-agent | Geen inhoudelijk werk zonder manager; kwartaalreview (governance CoS §7) |
 | Bman-instructies op meerdere plekken (Project, routines, Notion) | Enkel de Notion-skill is bron; de rest verwijst ernaar (Documentsync) |
 | Fiscaal/juridisch advies als finaal behandeld | Adviesgrens in `CLAUDE.md`; validatie door externe adviseur |
