@@ -27,7 +27,7 @@
   ul{ margin:0; padding-left:4.2mm } li{ margin:0 0 .8mm }
   b,strong{ color:var(--navy) }
   code{ font-family:"DejaVu Sans Mono", monospace; font-size:8pt; background:var(--azure-soft);
-    color:var(--navy); padding:.2mm 1mm; border-radius:1mm }
+    color:var(--navy); padding:.2mm 1mm; border-radius:1mm; white-space:nowrap }
 
   /* header */
   .hero{ margin:0 -14mm 6mm; padding:11mm 14mm 9mm; background:var(--navy); color:#fff; position:relative }
@@ -79,6 +79,8 @@
   .prompt{ border-left:3px solid var(--azure); background:#f6f9fc; padding:2mm 3mm; margin:0 0 2mm;
     font-size:8.4pt; font-style:italic; color:#2b3a4a }
   .prompt b{ font-style:normal; font-size:7.3pt; letter-spacing:.08em; text-transform:uppercase; color:var(--azure); display:block }
+  .skill{ display:block; font-style:normal; font-size:7.6pt; color:var(--navy); margin-top:1mm }
+  .skill code{ background:var(--navy); color:#fff; font-weight:600 }
   .do li::marker{ content:"✓  "; color:var(--green); font-weight:700 }
   .dont li::marker{ content:"✕  "; color:var(--red); font-weight:700 }
   .sec{ display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin-bottom:5mm }
@@ -136,7 +138,7 @@
     <div class="step"><div class="no">02</div><h3>Profiel schrijven</h3><p>10 tot 20 regels: rol, doelen, stijl, taal, wat je níet wil. Laat Claude je eerst interviewen.</p></div>
     <div class="step"><div class="no">03</div><h3>3 à 5 projecten</h3><p>Start met je belangrijkste thema's. Per project een instructie van één scherm en de kerndocumenten.</p></div>
     <div class="step"><div class="no">04</div><h3>Connectoren</h3><p>Begin met 2 à 3 (mail, agenda, documenten). Kies leesrechten waar het kan. Breid pas uit bij nood.</p></div>
-    <div class="step"><div class="no">05</div><h3>Eerste skills</h3><p>Maak een skill van wat je elke week opnieuw uitlegt. Start met twee. Geen tientallen downloaden.</p></div>
+    <div class="step"><div class="no">05</div><h3>Eerste skills</h3><p>Begin met <code>interview-me</code> en <code>chat-afsluiten</code> (p.&nbsp;2). Dan: wat je wekelijks uitlegt.</p></div>
     <div class="step"><div class="no">06</div><h3>Werkritme</h3><p>Plan → review → uitvoeren. Lange sessies afsluiten met een samenvatting en vers herbeginnen.</p></div>
     <div class="step"><div class="no">07</div><h3>Veiligheid</h3><p>Niets laten verzenden, betalen of ondertekenen zonder jouw expliciete “ja”. Check het databeleid.</p></div>
     <div class="step"><div class="no">08</div><h3>Onderhoud</h3><p>Maandelijks: instructies bijwerken, overbodige skills en connectoren weg, back-up van je bestanden.</p></div>
@@ -162,9 +164,10 @@
   <div class="two">
     <div class="card">
       <h3>Drie prompts die het meeste werk doen</h3>
-      <div class="prompt"><b>Vóór je start</b>Stel me eerst vragen tot we allebei hetzelfde plan voor ogen hebben. Begin nog niet uit te voeren.</div>
+      <p style="font-size:8pt;color:var(--muted);margin-bottom:2mm">Twee ervan maak je best een <b>skill</b>: dan volstaat één triggerzin.</p>
+      <div class="prompt"><b>Vóór je start</b>Stel me eerst vragen tot we allebei hetzelfde plan voor ogen hebben. Begin nog niet uit te voeren.<span class="skill">Skill <code>interview-me</code> · start met: “interview me”</span></div>
       <div class="prompt"><b>Plan verbeteren</b>Lees dit plan kritisch. Wat ontbreekt, wat kan fout lopen, wat kan eenvoudiger? Stel een verbeterde versie voor.</div>
-      <div class="prompt"><b>Afsluiten</b>Vat samen wat we beslisten, wat nog open staat en wat we leerden, zodat een nieuwe sessie morgen meteen verder kan.</div>
+      <div class="prompt"><b>Afsluiten</b>Vat samen wat we beslisten, wat nog open staat en wat we leerden, zodat een nieuwe sessie morgen meteen verder kan.<span class="skill">Skill <code>chat-afsluiten</code> · start met: “sluit af”</span></div>
     </div>
     <div class="card">
       <h3>Doen en niet doen</h3>
@@ -208,7 +211,7 @@
 
   <div style="margin-top:5mm;background:var(--navy);color:#fff;border-radius:2mm;padding:4mm 5mm;display:grid;grid-template-columns:38mm 1fr;gap:4mm;align-items:center">
     <div style="font-family:'Source Serif 4',serif;font-size:13pt;font-weight:700;line-height:1.15">Start vandaag<br><span style="color:#9fc3e6;font-size:10pt">in 30 minuten</span></div>
-    <div style="font-size:8.6pt;color:#d6e2ef">① Vraag Claude: <i>“Interview me om mijn profiel te schrijven.”</i> en plak het resultaat in je profiel. &nbsp;② Maak één project voor je belangrijkste thema, met een instructie van tien regels. &nbsp;③ Koppel je agenda of mail met leesrechten en test met één concrete vraag.</div>
+    <div style="font-size:8.6pt;color:#d6e2ef">① Gebruik de skill <code>interview-me</code>: <i>“Interview me om mijn profiel te schrijven.”</i> Plak het resultaat in je profiel. &nbsp;② Maak één project voor je belangrijkste thema, met een instructie van tien regels. &nbsp;③ Koppel je agenda of mail met leesrechten en test met één concrete vraag.</div>
   </div>
 
   <footer><span>Claude goed opzetten · infofiche · september 2026</span><span>Functies en namen in de apps wijzigen snel. Controleer bij twijfel de actuele instellingen.</span><span>2 / 2</span></footer>
