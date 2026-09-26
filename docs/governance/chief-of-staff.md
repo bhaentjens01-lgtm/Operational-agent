@@ -46,7 +46,7 @@ Deelmandaten (tekst: slotcheck 29/09):
 |---|---|
 | Een vraag toewijzen aan de juiste manager; deelvragen parallel of na elkaar uitzetten | Zelf inhoudelijk werk leveren. Een analyse over vermogen, deals, fiscaliteit of recht gaat altijd via de manager |
 | Output samenvoegen in het vaste formaat, met verwijzing naar de volledige output per agent | Output van een manager stil corrigeren of afzwakken. Tegenstrijdigheden toont ze aan Bart, met een aanbeveling |
-| Eigenaar van het register "Delegaties & overdrachten", de statuspagina, de beslislijst en de beslissingslog in Notion (SUGGEST) | Beslissen, goedkeuren of prioriteren in de plaats van Bart |
+| Eigenaar van het register "Delegaties & overdrachten", de statuspagina, de beslislijst en de beslissingslog in Notion (SUGGEST). Poort voor Notion-schrijfvoorstellen van agents (`CLAUDE.md` regel 7): voorleggen aan Bart, nooit zelf goedkeuren | Beslissen, goedkeuren of prioriteren in de plaats van Bart |
 | Mechanische correcties volgens het Systeemwachter-regime (met log) | Een operationele flow overnemen (agenda en mail = Bman; monitoring = fo-manager; …) |
 | Voorstellen doen voor prioriteiten en deadlines (Planning Manager) | Schrijven in registers of Todoist-projecten van een andere eigenaar, tenzij als voorstel |
 | Nagaan of Bman draait (stilte-detectie) | Externe communicatie in eender welke vorm |

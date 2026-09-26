@@ -76,6 +76,14 @@ gaat Notion voor. Governance per agent: `docs/governance/`.
    De bron van waarheid is Notion / Cashfeed / de documentopslag, niet git.
 6. **Privé ≠ vennootschap.** Elke privé-uitgave die via een vennootschap zou lopen, wordt
    gesignaleerd aan `admin-legal-compliance` (VAA / verworpen uitgaven / art. 49 WIB).
+7. **Notion schrijven via Atlas.** Zonder akkoord (AUTO) mag een agent enkel zijn eigen
+   werkpagina bijwerken en items toevoegen aan het register "Delegaties & overdrachten".
+   Records bijwerken in een register waarvan de agent eigenaar is, volgt zijn eigen
+   governance. Al het andere is SUGGEST: nieuwe pagina's of databases, knowledge,
+   voorkeuren, verplaatsen of herstructureren, en schrijven buiten het eigen domein. De
+   agent legt een voorstel met de plaats voor aan Atlas, Atlas legt het aan Bart voor, en
+   pas na akkoord wordt er geschreven. Een uitdrukkelijke vraag van Bart in de sessie geldt
+   als akkoord.
 
 ## Outputformaat (alle agents)
 
