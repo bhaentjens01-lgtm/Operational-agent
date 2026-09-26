@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude goed opzetten</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#12294a; --azure:#2f7fc1; --azure-soft:#e7f1fa; --silver:#b9c3cf;
+    --ink:#1d2733; --muted:#5b6878; --line:#dbe3ec; --paper:#ffffff;
+    --green:#2e8b57; --red:#c0392b; --amber:#d68910;
+  }
+  @page{ size:A4; margin:0 }
+  *{ box-sizing:border-box }
+  html,body{ margin:0; background:#eef2f6; color:var(--ink);
+    font-family:Inter, "Liberation Sans", Arial, sans-serif; font-size:9.4pt; line-height:1.42 }
+  .page{ width:210mm; height:297mm; margin:0 auto 10mm; background:var(--paper);
+    position:relative; overflow:hidden; padding:0 14mm 12mm }
+  @media print{ body{background:#fff} .page{ margin:0; page-break-after:always } }
+  h1,h2,h3{ font-family:"Source Serif 4", "Liberation Serif", Georgia, serif; color:var(--navy); margin:0 }
+  h2{ font-size:13.5pt; margin:0 0 2.5mm; display:flex; align-items:center; gap:2.5mm }
+  h2 .n{ font-family:Inter,sans-serif; font-size:8pt; font-weight:700; color:#fff; background:var(--azure);
+    border-radius:50%; width:5.6mm; height:5.6mm; display:inline-flex; align-items:center; justify-content:center }
+  h3{ font-size:10.5pt; margin:0 0 1mm }
+  p{ margin:0 0 2mm }
+  ul{ margin:0; padding-left:4.2mm } li{ margin:0 0 .8mm }
+  b,strong{ color:var(--navy) }
+  code{ font-family:"DejaVu Sans Mono", monospace; font-size:8pt; background:var(--azure-soft);
+    color:var(--navy); padding:.2mm 1mm; border-radius:1mm }
+
+  /* header */
+  .hero{ margin:0 -14mm 6mm; padding:11mm 14mm 9mm; background:var(--navy); color:#fff; position:relative }
+  .hero svg{ position:absolute; right:0; bottom:0; width:92mm; opacity:.55 }
+  .kicker{ font-size:8pt; letter-spacing:.18em; text-transform:uppercase; color:var(--silver); font-weight:600 }
+  .hero h1{ color:#fff; font-size:27pt; line-height:1.08; margin:2mm 0 2.5mm }
+  .hero p{ color:#d6e2ef; max-width:105mm; font-size:10pt; margin:0 }
+  .mini-hero{ margin:0 -14mm 6mm; padding:6mm 14mm; background:var(--navy); color:#fff;
+    display:flex; justify-content:space-between; align-items:baseline }
+  .mini-hero h1{ color:#fff; font-size:15pt }
+  .mini-hero span{ color:var(--silver); font-size:8pt; letter-spacing:.14em; text-transform:uppercase }
+
+  /* key idea */
+  .idea{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:3mm; margin-bottom:6mm }
+  .idea div{ border:1px solid var(--line); border-top:3px solid var(--azure); border-radius:2mm; padding:3mm }
+  .idea .big{ font-family:"Source Serif 4",serif; font-size:12pt; font-weight:700; color:var(--navy); display:block; margin-bottom:1mm }
+
+  /* layers */
+  .layers{ display:grid; grid-template-columns:62mm 1fr; gap:5mm; margin-bottom:6mm; align-items:start }
+  .stack{ display:flex; flex-direction:column; gap:1.4mm; align-items:center }
+  .stack div{ color:#fff; text-align:center; border-radius:1.5mm; padding:2.1mm 1mm; font-weight:600; font-size:8.6pt }
+  .stack small{ display:block; font-weight:400; opacity:.85; font-size:7.3pt }
+  .stack .l1{ width:100%; background:#12294a } .stack .l2{ width:92%; background:#1d4270 }
+  .stack .l3{ width:84%; background:#255a93 } .stack .l4{ width:76%; background:#2f7fc1 }
+  .stack .l5{ width:68%; background:#5d9dd3 }
+  .stack .cap{ color:var(--muted); background:none; font-weight:500; font-size:7.3pt; padding:0 }
+  table.lay{ width:100%; border-collapse:collapse; font-size:8.6pt }
+  table.lay td{ border-bottom:1px solid var(--line); padding:1.6mm 1.5mm; vertical-align:top }
+  table.lay td:first-child{ font-weight:700; color:var(--navy); width:27mm }
+  table.lay tr:last-child td{ border-bottom:none }
+
+  /* steps */
+  .steps{ display:grid; grid-template-columns:repeat(4,1fr); gap:2.6mm }
+  .step{ background:var(--azure-soft); border-radius:2mm; padding:3mm; position:relative }
+  .step .no{ font-family:"Source Serif 4",serif; font-size:17pt; font-weight:700; color:var(--azure); line-height:1 }
+  .step h3{ margin-top:1mm }
+  .step p{ font-size:8.3pt; margin:0; color:#33404e }
+
+  /* page 2 */
+  .flow{ display:flex; align-items:stretch; gap:0; margin:1mm 0 3mm }
+  .flow .f{ flex:1; background:var(--navy); color:#fff; padding:2.6mm 2mm 2.6mm 5mm; font-size:8.2pt;
+    clip-path:polygon(0 0, calc(100% - 4mm) 0, 100% 50%, calc(100% - 4mm) 100%, 0 100%, 4mm 50%) }
+  .flow .f:first-child{ clip-path:polygon(0 0, calc(100% - 4mm) 0, 100% 50%, calc(100% - 4mm) 100%, 0 100%); padding-left:3mm }
+  .flow .f:nth-child(2){ background:#1d4270 } .flow .f:nth-child(3){ background:#255a93 }
+  .flow .f:nth-child(4){ background:#2f7fc1 } .flow .f:nth-child(5){ background:#5d9dd3 }
+  .flow b{ color:#fff; display:block; font-size:8.8pt }
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:5mm; margin-bottom:5mm }
+  .card{ border:1px solid var(--line); border-radius:2mm; padding:3.5mm }
+  .prompt{ border-left:3px solid var(--azure); background:#f6f9fc; padding:2mm 3mm; margin:0 0 2mm;
+    font-size:8.4pt; font-style:italic; color:#2b3a4a }
+  .prompt b{ font-style:normal; font-size:7.3pt; letter-spacing:.08em; text-transform:uppercase; color:var(--azure); display:block }
+  .do li::marker{ content:"✓  "; color:var(--green); font-weight:700 }
+  .dont li::marker{ content:"✕  "; color:var(--red); font-weight:700 }
+  .sec{ display:grid; grid-template-columns:repeat(3,1fr); gap:3mm; margin-bottom:5mm }
+  .sec div{ border-radius:2mm; padding:3mm; background:#fbf6ec; border:1px solid #f1e2c4 }
+  .sec h3{ color:#8a5a0b }
+  .check{ columns:2; column-gap:6mm; list-style:none; padding:0; font-size:8.6pt }
+  .check li{ break-inside:avoid; padding-left:5.5mm; position:relative; margin-bottom:1.3mm }
+  .check li::before{ content:""; position:absolute; left:0; top:.5mm; width:3mm; height:3mm; border:1.3px solid var(--navy); border-radius:.6mm }
+  footer{ position:absolute; left:14mm; right:14mm; bottom:7mm; display:flex; justify-content:space-between;
+    font-size:7pt; color:var(--muted); border-top:1px solid var(--line); padding-top:2mm }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGINA 1 ============ -->
+<section class="page">
+  <header class="hero">
+    <svg viewBox="0 0 400 110" fill="none" stroke="#5d9dd3" stroke-width="1.1" aria-hidden="true">
+      <path d="M0 110 L70 52 L105 78 L170 18 L230 70 L262 48 L330 96 L360 74 L400 100"/>
+      <path d="M40 110 L110 66 L150 88 L205 45 L265 92 L300 70 L400 110" stroke="#2f7fc1" opacity=".7"/>
+    </svg>
+    <div class="kicker">Infofiche · AI-assistent</div>
+    <h1>Claude goed opzetten</h1>
+    <p>Van losse chats naar een assistent die je kent, je bronnen gebruikt en veilig werkt: profiel, projecten, kennis, skills en connectoren in de juiste volgorde.</p>
+  </header>
+
+  <div class="idea">
+    <div><span class="big">Agent = model + harness</span>Het model schrijft tekst; de omgeving errond (de app of Claude Code) voert acties uit: bestanden lezen, zoeken, mails opzoeken.</div>
+    <div><span class="big">Context is alles</span>Geef Claude de juiste info op het juiste moment, niet meer. Te veel tekst in één gesprek maakt de antwoorden slechter.</div>
+    <div><span class="big">Claude vergeet</span>Na elk gesprek begint Claude opnieuw. Wat blijvend moet zijn, zet je in instructies, bestanden of een kennisbank.</div>
+  </div>
+
+  <h2><span class="n">1</span>De vijf lagen van een goede opzet</h2>
+  <div class="layers">
+    <div class="stack">
+      <div class="l1">Profiel &amp; voorkeuren<small>altijd gelezen</small></div>
+      <div class="l2">Projecten + instructies<small>per thema</small></div>
+      <div class="l3">Kennis &amp; documenten<small>het geheugen</small></div>
+      <div class="l4">Skills<small>enkel wanneer nodig</small></div>
+      <div class="l5">Connectoren<small>acties in je tools</small></div>
+      <div class="cap">van algemeen (boven) naar specifiek (onder)</div>
+    </div>
+    <table class="lay">
+      <tr><td>Profiel</td><td>Wie je bent, hoe je wil dat Claude antwoordt (taal, toon, lengte, structuur). <b>Kort en persoonlijk.</b> In Claude: <i>Instellingen › Profiel</i>; in Claude Code: de globale <code>CLAUDE.md</code>.</td></tr>
+      <tr><td>Projecten</td><td>Eén project per terugkerend thema (bv. Financiën, Reizen, Gezondheid). De projectinstructie is een <b>kaart</b>: doel, afspraken, waar staat wat.</td></tr>
+      <tr><td>Kennis</td><td>Documenten die Claude moet kennen: in het project geladen, of in Notion/Drive via een connector. Eén bron van waarheid, niet vijf kopieën.</td></tr>
+      <tr><td>Skills</td><td>Herbruikbare werkwijzen (“maak een presentatie in mijn huisstijl”). Claude laadt ze zelf als de taak erom vraagt. <b>Weinig, persoonlijk, regelmatig opruimen.</b></td></tr>
+      <tr><td>Connectoren</td><td>Koppelingen (MCP) met mail, agenda, Drive, Notion, boekhouding. Ze laten Claude lezen en voorbereiden. <b>Enkel wat je echt gebruikt.</b></td></tr>
+    </table>
+  </div>
+
+  <h2><span class="n">2</span>Opzetten in acht stappen</h2>
+  <div class="steps">
+    <div class="step"><div class="no">01</div><h3>Account &amp; apps</h3><p>Betaald plan (Pro of Max). Installeer desktop- en mobiele app. Zet geheugen aan als je dat wil.</p></div>
+    <div class="step"><div class="no">02</div><h3>Profiel schrijven</h3><p>10 tot 20 regels: rol, doelen, stijl, taal, wat je níet wil. Laat Claude je eerst interviewen.</p></div>
+    <div class="step"><div class="no">03</div><h3>3 à 5 projecten</h3><p>Start met je belangrijkste thema's. Per project een instructie van één scherm en de kerndocumenten.</p></div>
+    <div class="step"><div class="no">04</div><h3>Connectoren</h3><p>Begin met 2 à 3 (mail, agenda, documenten). Kies leesrechten waar het kan. Breid pas uit bij nood.</p></div>
+    <div class="step"><div class="no">05</div><h3>Eerste skills</h3><p>Maak een skill van wat je elke week opnieuw uitlegt. Start met twee. Geen tientallen downloaden.</p></div>
+    <div class="step"><div class="no">06</div><h3>Werkritme</h3><p>Plan → review → uitvoeren. Lange sessies afsluiten met een samenvatting en vers herbeginnen.</p></div>
+    <div class="step"><div class="no">07</div><h3>Veiligheid</h3><p>Niets laten verzenden, betalen of ondertekenen zonder jouw expliciete “ja”. Check het databeleid.</p></div>
+    <div class="step"><div class="no">08</div><h3>Onderhoud</h3><p>Maandelijks: instructies bijwerken, overbodige skills en connectoren weg, back-up van je bestanden.</p></div>
+  </div>
+
+  <footer><span>Claude goed opzetten · infofiche</span><span>Gebaseerd op het AI-seminar Claude, Wintercircus Gent (11/09/2026), en praktijkervaring</span><span>1 / 2</span></footer>
+</section>
+
+<!-- ============ PAGINA 2 ============ -->
+<section class="page">
+  <header class="mini-hero"><h1>Claude goed opzetten</h1><span>Werken · Veiligheid · Checklist</span></header>
+
+  <h2><span class="n">3</span>Zo werk je ermee: van idee tot resultaat</h2>
+  <div class="flow">
+    <div class="f"><b>1 · Idee</b>Uitleggen, laten doorvragen</div>
+    <div class="f"><b>2 · Plan</b>Plan als document</div>
+    <div class="f"><b>3 · Review</b>Nieuw gesprek, kritisch</div>
+    <div class="f"><b>4 · Uitvoeren</b>Nieuw gesprek, plan volgen</div>
+    <div class="f"><b>5 · Vastleggen</b>Leerpunten bewaren</div>
+  </div>
+  <p style="font-size:8.4pt;color:var(--muted);margin-bottom:4mm">Voor grote taken: laat de review door een <b>ander model</b> of een verse sessie doen. Wie het plan schreef, ziet zijn eigen fouten minder snel.</p>
+
+  <div class="two">
+    <div class="card">
+      <h3>Drie prompts die het meeste werk doen</h3>
+      <div class="prompt"><b>Vóór je start</b>Stel me eerst vragen tot we allebei hetzelfde plan voor ogen hebben. Begin nog niet uit te voeren.</div>
+      <div class="prompt"><b>Plan verbeteren</b>Lees dit plan kritisch. Wat ontbreekt, wat kan fout lopen, wat kan eenvoudiger? Stel een verbeterde versie voor.</div>
+      <div class="prompt"><b>Afsluiten</b>Vat samen wat we beslisten, wat nog open staat en wat we leerden, zodat een nieuwe sessie morgen meteen verder kan.</div>
+    </div>
+    <div class="card">
+      <h3>Doen en niet doen</h3>
+      <ul class="do">
+        <li>Eén thema per project, één taak per gesprek</li>
+        <li>Instructies behandelen als levend document</li>
+        <li>Bronnen vragen bij cijfers en feiten</li>
+        <li>Zelf het overzicht bewaren: jij beslist</li>
+        <li>Uitleg vragen in gewone taal, zonder interne codes</li>
+      </ul>
+      <ul class="dont" style="margin-top:1.5mm">
+        <li>Tientallen skills of plugins installeren “voor het geval dat”</li>
+        <li>Eindeloos doorgaan in één lang gesprek</li>
+        <li>Dezelfde info op vijf plaatsen bijhouden</li>
+        <li>Claude laten mailen of betalen zonder controle</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2><span class="n">4</span>Veiligheid en discipline</h2>
+  <div class="sec">
+    <div><h3>Voorbereiden, niet uitvoeren</h3>Laat Claude drafts maken. Verzenden, betalen, ondertekenen of verwijderen gebeurt pas na jouw “ja”. Zet dat letterlijk in je profiel.</div>
+    <div><h3>Minimale toegang</h3>Geef elke connector enkel de rechten die nodig zijn. Weet welke tools aan mail, bank of documenten raken. Koppel af wat je niet gebruikt.</div>
+    <div><h3>Data &amp; back-up</h3>Controleer het databeleid (bewaring, training). Bewaar je instructies en skills buiten de app, met versiebeheer (bv. GitHub) voor grotere projecten.</div>
+  </div>
+  <p style="font-size:8.4pt;margin:-2mm 0 5mm"><b>Tip:</b> voeg aan je instructies toe: <i>“Controleer na elke wijziging of je een veiligheidsrisico hebt gecreëerd en meld het.”</i></p>
+
+  <h2><span class="n">5</span>Checklist: ben je goed opgezet?</h2>
+  <ul class="check">
+    <li>Mijn profiel beschrijft wie ik ben en hoe Claude moet antwoorden</li>
+    <li>Ik heb 3 à 5 projecten, elk met een korte instructie</li>
+    <li>Elk project weet waar de documenten staan</li>
+    <li>Ik gebruik hoogstens een handvol eigen skills</li>
+    <li>Enkel de connectoren die ik echt gebruik staan aan</li>
+    <li>Claude verstuurt of betaalt niets zonder mijn akkoord</li>
+    <li>Ik sluit lange sessies af met een samenvatting</li>
+    <li>Grote plannen laat ik apart reviewen</li>
+    <li>Ik ken het databeleid van mijn abonnement</li>
+    <li>Instructies en skills staan ook in een back-up</li>
+  </ul>
+
+  <div style="margin-top:5mm;background:var(--navy);color:#fff;border-radius:2mm;padding:4mm 5mm;display:grid;grid-template-columns:38mm 1fr;gap:4mm;align-items:center">
+    <div style="font-family:'Source Serif 4',serif;font-size:13pt;font-weight:700;line-height:1.15">Start vandaag<br><span style="color:#9fc3e6;font-size:10pt">in 30 minuten</span></div>
+    <div style="font-size:8.6pt;color:#d6e2ef">① Vraag Claude: <i>“Interview me om mijn profiel te schrijven.”</i> en plak het resultaat in je profiel. &nbsp;② Maak één project voor je belangrijkste thema, met een instructie van tien regels. &nbsp;③ Koppel je agenda of mail met leesrechten en test met één concrete vraag.</div>
+  </div>
+
+  <footer><span>Claude goed opzetten · infofiche · september 2026</span><span>Functies en namen in de apps wijzigen snel. Controleer bij twijfel de actuele instellingen.</span><span>2 / 2</span></footer>
+</section>
+</body>
+</html>
