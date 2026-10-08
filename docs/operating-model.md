@@ -56,7 +56,11 @@ Technische grens: een subagent kan geen andere subagent starten, en Bman draait 
 deze repo. Het register is dus de wachtrij tussen sessies en platformen.
 
 **Aanpak eerst (gate).** Een agent begint pas aan een opdracht nadat Bart de aanpak heeft
-goedgekeurd. Statusflow in het register:
+goedgekeurd. **Pilot vanaf 12/10/2026 (akkoord Bart 08/10):** de gate geldt enkel nog voor
+nieuw, niet-terugkerend werk; terugkerend werk loopt onder een staande aanpak, klasse A en
+interne stappen vallen onder "stilte is ja" na 3 werkdagen, en Bart ziet per dag maximaal
+5 items plus één beslisblok op vrijdag. Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
+Statusflow in het register:
 
 `Nieuw → Aanpak voorgesteld → Aanpak goedgekeurd → Bezig → Naar Bart → Klaar`
 (zijsporen: `Wachten`, `Geannuleerd`)

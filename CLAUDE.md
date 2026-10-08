@@ -48,6 +48,10 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    juridisch moet doen). **Delegaties en overdrachten → Notion-register "Delegaties &
    overdrachten"** (https://app.notion.com/p/3e6cb4db7d9f81689801e399e5466697). Beslissingen
    en goedkeuringen → de beslislijst (briefing / vrijdagrapport), nooit Todoist.
+7. **Goedkeuringsregime (pilot vanaf 12/10/2026):** terugkerend werk onder een staande
+   aanpak; stilte is ja enkel voor klasse A en interne stappen; max 5 items per dag voor
+   Bart plus één vrijdagblok; elk item met default plus ja/nee.
+   Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
 
 ## Bronnen — volgorde (geldt voor het hele team)
 
