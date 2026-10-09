@@ -151,6 +151,7 @@ Automatiseren via Claude Routines kan zodra een agent een pilot doorstaan heeft.
 ## 8. Governance per agent
 
 - Chief of Staff: `docs/governance/chief-of-staff.md` (v1.0, akkoord 25/09)
+- Systeemwachter (deelmandaat CoS): `docs/governance/systeemwachter.md` (voorstel v1.1, 10/10)
 - `fo-manager`: `docs/governance/fo-manager.md` (voorstel v0.1)
 
 ## 9. Open beslissingen (voor Bart)

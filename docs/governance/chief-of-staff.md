@@ -37,7 +37,7 @@ Deelmandaten (tekst: slotcheck 29/09):
 
 | Deelmandaat | Autonomie |
 |---|---|
-| **Systeemwachter** | Mechanische correcties met log (AOR §9). Uitzondering: aan skills verandert niets zonder akkoord van Bart |
+| **Systeemwachter** | Mechanische correcties met log (AOR §9). Uitzondering: aan skills verandert niets zonder akkoord van Bart. Normen, cadans en rapportformaat: `docs/governance/systeemwachter.md` (voorstel v1.1, 10/10) |
 | **Planning Manager** | SUGGEST voor prioriteiten en deadlines |
 
 ## 3. Wat de CoS wel en niet mag
