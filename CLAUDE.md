@@ -58,6 +58,12 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
 1. **Notion**: registers, knowledge, werkpagina's. 2. **Dropbox**: originele documenten.
 3. Pas als het daar niet te vinden is: Cashfeed, mail, Drive, SharePoint, en daarna het web.
    Vermeld altijd waar je het gevonden hebt.
+4. **Webcheck = live check.** Voorraad, prijs, openingsuren: check de pagina zelf (fetch of
+   browser), niet enkel zoeksnippets. Lukt dat niet (bv. netwerkblokkade), zeg dat **bovenaan
+   in de executive summary**, met de één-klik-check die Bart zelf kan doen. Nooit wegstoppen
+   in een tabelkolom.
+5. **Altijd links.** Bij producten, winkels, boekingen en aanbiedingen: directe link per item
+   (productpagina, niet enkel categorie), zodat Bart zelf kan nakijken.
 
 ## Governance — harde regels (gelden voor elke agent)
 
