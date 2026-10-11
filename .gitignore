@@ -9,3 +9,8 @@ exports/
 .env
 .claude/settings.local.json
 .claude/agent-memory-local/
+
+# Bankfeed: sleutels en lokale omgeving
+*.pem
+.venv/
+__pycache__/

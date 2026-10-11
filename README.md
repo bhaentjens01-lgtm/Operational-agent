@@ -14,6 +14,7 @@ Agent-team voor het Mafinco family office, gebouwd als Claude Code subagents.
 - `.claude/settings.json` — technische rem op externe en destructieve acties
 - `docs/operating-model.md` — grensafspraken, communicatie en overdracht, cadans, pilot-roadmap, risico's, open beslissingen
 - `docs/governance/` — governance per rol (Chief of Staff, fo-manager)
+- `tools/bankfeed/` — prototype: privérekeningen automatisch inlezen via Enable Banking (enkel lezen, data lokaal)
 
 Gebruik: open een Claude Code-sessie op dit repo en stel je vraag; de hoofdsessie
 routeert. Een agent rechtstreeks aanspreken: "Laat de investment-manager deze deal triëren."
