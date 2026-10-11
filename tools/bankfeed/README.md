@@ -3,6 +3,12 @@
 Status: **prototype v0.1** (11/10/2026). Getest met gesimuleerde API-antwoorden. Nog niet
 getest tegen de live API van Enable Banking.
 
+## Scope (beslissing Bart, 11/10/2026)
+
+Bankfeed is **enkel** voor Barts privérekeningen. Alle rekeningen van de vennootschappen
+blijven via Cashfeed lopen. De IBAN's van de vennootschappen worden hier alleen
+herkend als tegenpartij (signaal S1). Koppelen kan niet: zo'n rekening wordt geweigerd.
+
 ## Wat het doet
 
 ```
