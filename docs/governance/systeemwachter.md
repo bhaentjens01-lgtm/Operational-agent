@@ -54,6 +54,57 @@ de domeinkaart en het goedkeuringsregime.
 Elke regel: **norm → bron → hoe gecontroleerd → wat bij afwijking** (fix = mechanisch met
 log; SW = voorstel). "Eigenaar" verwijst naar de domeinkaart v1 (09/10).
 
+### 4.0 Instroomcontrole — wat is nieuw sinds de vorige run? (anti-wildgroei)
+
+**Doel:** wildgroei stoppen bij de bron. Elke run bekijkt **enkel wat sinds de vorige run is
+aangemaakt** (venster = tijdstip van de vorige run in de weeklog; eerste venster start
+09/10/2026, de eerste run). Oude rommel valt buiten deze controle: die gaat via de
+opkuislijst van de domeinkaart (§4), niet via de weekcheck.
+
+Per nieuw element drie vragen: **(1) staat het op de juiste plek** (domeinkaart + beslisboom
+AOR §6)? **(2) heeft het de juiste vorm** (naam, velden, structuur)? **(3) bestaat het al
+ergens anders** (dubbel)?
+
+**Notion — nieuwe pagina's en databases**
+
+| # | Norm | Bron |
+|---|---|---|
+| I-N1 | Nieuwe informatie wordt een **entry in een bestaande database**, geen losse pagina en geen nieuwe database. Een nieuwe database of top-level pagina onder MAFINCO OS vraagt een ja van Bart | Bman-skill v3.2 ("nooit nieuwe DB's/losse pagina's"); Raw Ideas-regel (04/2026); AOR §6 |
+| I-N2 | Plaats volgt de beslisboom: project → Projects Master · proces → Processes & Routines · taak → **nooit in Notion** (Todoist) · meeting → Meeting Notes met Area · skill → enkel Skills-DB · delegatie → Register | AOR §6, §8; skillregel 22/09; werkcontract 08/10 |
+| I-N3 | Pandinformatie hangt onder de pandfiche, in de vaste subpagina's 01–10 van het pandsjabloon | Pandsjabloon (Overzicht panden, 09/2026) |
+| I-N4 | Geen pagina's "Untitled", geen privépagina's met domeininhoud buiten de teamspace | Werkcontract regel 1 (gedeelde bron) |
+| I-N5 | Geen tweede pagina over hetzelfde onderwerp (titelvergelijking met bestaande pagina's) | Werkcontract regel 5 |
+
+**Todoist — nieuwe taken en projecten**
+
+| # | Norm | Bron |
+|---|---|---|
+| I-T1 | Elke nieuwe taak zit in een **project uit de domeinkaart** (Inbox enkel tijdelijk; vrijdag leeg) | Domeinkaart §2; AOR 18/09 |
+| I-T2 | Vorm bij aanmaak: titelcode/prefix van de eigenaar of `( )`, duur, P4 | Werkcontract regel 4; AOR 18/09; operating-model §3 |
+| I-T3 | Een nieuwe taak voor Bart bestaat enkel als geen agent het kan; **geen beslissingen** in Todoist (die gaan naar de beslislijst) | AOR 09/10; CLAUDE.md routering 6 |
+| I-T4 | Geen nieuw Todoist-project zonder plaats in de domeinkaart | Domeinkaart §1.1, §1.4 |
+| I-T5 | Geen nieuwe taak die al als registeritem bestaat | Werkcontract regel 5 |
+
+**Dropbox — nieuwe bestanden en mappen**
+
+| # | Norm | Bron |
+|---|---|---|
+| I-D1 | Een nieuw bestand staat in de **map van de domeineigenaar** volgens de domeinkaart (bv. Detech/Landelis → `BUSINESS/consulting/Landelis BV/…`, boekhouding → `ACCOUNTING & ADMIN`) | Domeinkaart §2 |
+| I-D2 | Binnen een dossier de **vaste submappen**: pand `01`–`10` (pandsjabloon) · consultingklant `01 Contract · 02 Werkdocumenten · …` · plaatsbeschrijvingen `03/Plaatsbeschrijvingen/<jaar>/<unit>/` | Pandsjabloon; pagina 05 Consulting (09/10); 03 Huur & gebruik |
+| I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; nooit de naam uit de mail of de camera laten staan (`IMG_1234`, `scan001`), nooit overschrijven. Algemene conventie: **zie open punt §8.1** | Bart 10/10 (staande aanpak fo, nr. 2) |
+| I-D4 | Geen nieuwe map op niveau 1 of 2 (`/MAFINCO/<x>`, `/PERSOONLIJK/<x>`) zonder plaats in de domeinkaart | Domeinkaart §1.1 |
+| I-D5 | Geen kopie van hetzelfde bestand op twee plekken. Uitzondering: een skill die geregistreerd is als "Notion + lokaal/geïnstalleerd" (veld *Geïnstalleerd in*) | Werkcontract regel 5; skillregel 24/09 |
+| I-D6 | Output van agents (rapporten, analyses) landt in het dossier van de eigenaar, niet in een tool- of projectmap (`Experience app/output`) | Domeinkaart §2 |
+
+**Wat bij afwijking:** altijd **SW aan de eigenaar** (verplaatsen of hernoemen in andermans
+map is nooit mechanisch). Uitzondering: elementen in CoS-eigendom (Ecosystem Optimization,
+`HUISSTIJL & WERKDOCUMENTEN/Agents`, register-items van Atlas) → fix met log. Verplaatsen in
+Dropbox blijft technisch een `ask`.
+
+**Scorecard instroom:** per systeem *nieuw · correct · afwijkend (%)*. Doel na 4 weken:
+≥ 90% correct bij aanmaak. Een eigenaar die 3 weken op rij < 80% scoort → één SW "oorzaak"
+(regel ontbreekt in zijn skill of routineprompt), niet drie keer dezelfde melding.
+
 ### 4.1 Notion
 
 | # | Norm | Bron | Controle | Afwijking |
@@ -104,7 +155,7 @@ controleert enkel of de **mailflows** lopen.
 | D3 | Gevoelige documenten (identiteit, codes, zorgvolmachten) staan **buiten** de scope-mappen van de managers (`INVESTMENTS`, `VERMOGENSPLANNING`), in `belangrijke doc oa ID` | fo-manager.md §7 | Bestandsnamen scannen op ID/code/volmacht-patronen, inhoud niet lezen | 🔴 Security-signaal + SW aan Vesta/Lex |
 | D4 | Bestanden in `/MAFINCO/HUISSTIJL & WERKDOCUMENTEN/AGENTS` (werkdocumenten van agents) hebben een Notion- of repo-tegenhanger (Documentsync) | AOR 18/09 | Lijst vs. Notion | SW |
 | D5 | Geen verplaatsingen of verwijderingen door routines (Dropbox-activiteit van de week) | AOR 07/10 | Recente wijzigingen in scope-mappen | 🔴 Security-signaal |
-| D6 | *Naamconventie per map* | **Niet beslist** (voorstel 21/09, beslissing 29/09 niet teruggevonden) | **Niet gecontroleerd** tot §8.1 is beslist | — |
+| D6 | Algemene naamconventie (zie I-D3 en §8.1) | Voorstel 21/09 nooit beslist; vandaag drie datumformaten naast elkaar | Na beslissing: enkel **nieuwe** bestanden (I-D3); geen massale hernoeming van het archief | SW aan de eigenaar |
 
 ### 4.5 Routines en agents
 
@@ -171,16 +222,22 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
 
 ## 8. Open punten — beslissing Bart
 
-1. **Dropbox-naamconventie (D6).** Het voorstel van 21/09 is niet als beslissing
-   teruggevonden. Default: Atlas legt het voorstel opnieuw voor op **02/11**, als voorstel in
-   het register; tot dan geen controle op naamgeving.
-2. **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
-3. **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
+1. **Algemene Dropbox-naamconventie (I-D3, D6).** Het voorstel van 21/09 is nooit beslist.
+   Steekproef 02–13/10 in `/MAFINCO`: drie datumformaten naast elkaar
+   (`20261006 - Detech - Term sheet.pdf`, `2026-06-30_Kwartaalrapport_Belfius.pdf`,
+   `basiscase-30062026.md`) plus onhernoemde camerabestanden (`IMG_5173.HEIC`). Default:
+   **`JJJJ-MM-DD_Documenttype_Partij[_detail].ext`** voor originele documenten, enkel voor
+   nieuwe bestanden; huurdersregel van 10/10 blijft de uitzondering; werkdocumenten van agents
+   en code vallen erbuiten.
+2. **Instroomcontrole als vast onderdeel (§4.0)**, venster = sinds de vorige run, enkel
+   melden aan de eigenaar. Default: ja.
+3. **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
+4. **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
    is SW. Default: fix, want de regel is expliciet (operating-model §3) en omkeerbaar.
-4. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
+5. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
    Systeemwachter dat mag, of blijft mail volledig bij Bman? Default: tellen mag.
-5. **Eerste run na goedkeuring: vr 06/11** (vakantie). Alternatief: één handmatige run
-   vóór vertrek (ma 12/10) als nulmeting. Default: 12/10 handmatig.
+6. **Eerste run.** Vakantie 13/10–01/11: geen checks voor Bart. Default: nulmeting draait
+   stil (enkel weeklog, niets voorgelegd); eerste rapport aan Bart op **vr 06/11**.
 
 ## 9. Documentsync na akkoord
 
