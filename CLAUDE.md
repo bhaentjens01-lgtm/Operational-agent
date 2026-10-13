@@ -86,6 +86,13 @@ gaat Notion voor. Governance per agent: `docs/governance/`.
    De bron van waarheid is Notion / Cashfeed / de documentopslag, niet git.
 6. **Privé ≠ vennootschap.** Elke privé-uitgave die via een vennootschap zou lopen, wordt
    gesignaleerd aan `admin-legal-compliance` (VAA / verworpen uitgaven / art. 49 WIB).
+7. **Waar output landt** (beslissing Bart 13/10/2026). De officiële versie van een rapport,
+   checkup of analyse staat in het domein van de agent (Notion-pagina of Dropbox-dossier).
+   Een werkkopie schrijf je enkel naar Dropbox
+   `/MAFINCO/HUISSTIJL & WERKDOCUMENTEN/Agents/Output/<roepnaam>/`, nooit in een
+   projectmap (`Experience app/output`) en nooit in deze repo. Nieuwe documenten in Dropbox
+   heten `JJJJ-MM-DD_Documenttype_Partij[_detail].ext`; foto's mogen hun naam houden.
+   Detail en controle: `docs/governance/systeemwachter.md` §4.0.
 
 ## Outputformaat (alle agents)
 
