@@ -68,6 +68,13 @@ geen verzonnen cijfers) blijven onverkort gelden.
 
 - Elk item dat Bart bereikt bevat **één aanbevolen keuze**, de reden in één regel, en wat
   er gebeurt bij "nee". Formulering: *"Ik doe X, tenzij je nee zegt."*
+- **Context en info om te kunnen beslissen** (aanvulling Bart 13/10): elk item legt eerst
+  kort uit wat er speelt en waarom het nu op tafel ligt, met de relevante feiten en
+  cijfers (telkens met bron), de opties met hun gevolgen, en wat de keuze niet verandert.
+  Bart moet kunnen beslissen zonder zelf het dossier te openen. Kort blijft de norm:
+  zoveel context als nodig, niet meer.
+- "Tenzij je nee zegt" is een formulering, geen toestemming: voor klasse B start niets
+  zonder expliciete ok van Bart.
 - Open vragen aan Bart zijn enkel toegestaan voor **feiten die nergens in de bronnen
   staan** (Notion, Dropbox, Cashfeed, mail), en dan gebundeld in **één regel** per item.
 - Een item met meer dan één open vraag gaat terug naar de agent: eerst zelf zoeken,

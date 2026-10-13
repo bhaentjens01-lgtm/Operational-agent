@@ -50,7 +50,8 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    en goedkeuringen → de beslislijst (briefing / vrijdagrapport), nooit Todoist.
 7. **Goedkeuringsregime (pilot vanaf 12/10/2026):** terugkerend werk onder een staande
    aanpak; stilte is ja enkel voor klasse A en interne stappen; max 5 items per dag voor
-   Bart plus één vrijdagblok; elk item met default plus ja/nee.
+   Bart plus één vrijdagblok; elk item met context en info om te beslissen (feiten met
+   bron, opties met gevolgen), een aanbevolen keuze en een ja/nee-vraag.
    Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
 8. **Beslissingen aan Bart: vraag per vraag** (staande afspraak Bart, 13/10/2026). Leg
    nooit meerdere beslissingen tegelijk voor. Per vraag: korte context (probleem, wat het
