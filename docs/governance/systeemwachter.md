@@ -91,7 +91,7 @@ ergens anders** (dubbel)?
 |---|---|---|
 | I-D1 | Een nieuw bestand staat in de **map van de domeineigenaar** volgens de domeinkaart (bv. Detech/Landelis → `BUSINESS/consulting/Landelis BV/…`, boekhouding → `ACCOUNTING & ADMIN`) | Domeinkaart §2 |
 | I-D2 | Binnen een dossier de **vaste submappen**: pand `01`–`10` (pandsjabloon) · consultingklant `01 Contract · 02 Werkdocumenten · …` · plaatsbeschrijvingen `03/Plaatsbeschrijvingen/<jaar>/<unit>/` | Pandsjabloon; pagina 05 Consulting (09/10); 03 Huur & gebruik |
-| I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; nooit de naam uit de mail of de camera laten staan (`IMG_1234`, `scan001`), nooit overschrijven. Algemene conventie: **zie open punt §8.1** | Bart 10/10 (staande aanpak fo, nr. 2) |
+| I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; documenten: nooit de naam uit de mail of de scanner laten staan (`scan001`), nooit overschrijven. **Algemene conventie (beslist 13/10): `JJJJ-MM-DD_Documenttype_Partij[_detail].ext`**, enkel voor nieuwe documenten. **Foto's met een cameranaam (`IMG_1234`) mogen hun naam houden.** Werkdocumenten van agents en code vallen erbuiten | Bart 10/10 (staande aanpak fo, nr. 2); Bart 13/10 (§8.1) |
 | I-D4 | Geen nieuwe map op niveau 1 of 2 (`/MAFINCO/<x>`, `/PERSOONLIJK/<x>`) zonder plaats in de domeinkaart | Domeinkaart §1.1 |
 | I-D5 | Geen kopie van hetzelfde bestand op twee plekken. Uitzondering: een skill die geregistreerd is als "Notion + lokaal/geïnstalleerd" (veld *Geïnstalleerd in*) | Werkcontract regel 5; skillregel 24/09 |
 | I-D6 | Output van agents (rapporten, analyses) landt in het dossier van de eigenaar, niet in een tool- of projectmap (`Experience app/output`) | Domeinkaart §2 |
@@ -155,7 +155,7 @@ controleert enkel of de **mailflows** lopen.
 | D3 | Gevoelige documenten (identiteit, codes, zorgvolmachten) staan **buiten** de scope-mappen van de managers (`INVESTMENTS`, `VERMOGENSPLANNING`), in `belangrijke doc oa ID` | fo-manager.md §7 | Bestandsnamen scannen op ID/code/volmacht-patronen, inhoud niet lezen | 🔴 Security-signaal + SW aan Vesta/Lex |
 | D4 | Bestanden in `/MAFINCO/HUISSTIJL & WERKDOCUMENTEN/AGENTS` (werkdocumenten van agents) hebben een Notion- of repo-tegenhanger (Documentsync) | AOR 18/09 | Lijst vs. Notion | SW |
 | D5 | Geen verplaatsingen of verwijderingen door routines (Dropbox-activiteit van de week) | AOR 07/10 | Recente wijzigingen in scope-mappen | 🔴 Security-signaal |
-| D6 | Algemene naamconventie (zie I-D3 en §8.1) | Voorstel 21/09 nooit beslist; vandaag drie datumformaten naast elkaar | Na beslissing: enkel **nieuwe** bestanden (I-D3); geen massale hernoeming van het archief | SW aan de eigenaar |
+| D6 | Algemene naamconventie `JJJJ-MM-DD_Documenttype_Partij[_detail].ext` (zie I-D3) | Bart 13/10 (§8.1) | Na beslissing: enkel **nieuwe** bestanden (I-D3); geen massale hernoeming van het archief | SW aan de eigenaar |
 
 ### 4.5 Routines en agents
 
@@ -222,7 +222,7 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
 
 ## 8. Open punten — beslissing Bart
 
-1. **Algemene Dropbox-naamconventie (I-D3, D6).** Het voorstel van 21/09 is nooit beslist.
+1. ✅ **Beslist 13/10: ja. Foto's met cameranaam vallen erbuiten.** **Algemene Dropbox-naamconventie (I-D3, D6).** Het voorstel van 21/09 is nooit beslist.
    Steekproef 02–13/10 in `/MAFINCO`: drie datumformaten naast elkaar
    (`20261006 - Detech - Term sheet.pdf`, `2026-06-30_Kwartaalrapport_Belfius.pdf`,
    `basiscase-30062026.md`) plus onhernoemde camerabestanden (`IMG_5173.HEIC`). Default:
