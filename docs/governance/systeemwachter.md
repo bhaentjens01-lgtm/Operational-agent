@@ -58,8 +58,10 @@ log; SW = voorstel). "Eigenaar" verwijst naar de domeinkaart v1 (09/10).
 
 **Doel:** wildgroei stoppen bij de bron. Elke run bekijkt **enkel wat sinds de vorige run is
 aangemaakt** (venster = tijdstip van de vorige run in de weeklog; eerste venster start
-09/10/2026, de eerste run). Oude rommel valt buiten deze controle: die gaat via de
-opkuislijst van de domeinkaart (§4), niet via de weekcheck.
+09/10/2026, de eerste run). Oude rommel valt buiten deze controle: die gaat via één
+**opkuisronde eind november** (Bart 13/10; default week 48, 23–27/11), gecoördineerd door Atlas,
+uitgevoerd door elke eigenaar in zijn domein, volgens de opkuislijst van de domeinkaart (§4).
+Archiveren, nooit verwijderen; elke verplaatsing in Dropbox blijft een `ask`.
 
 Per nieuw element drie vragen: **(1) staat het op de juiste plek** (domeinkaart + beslisboom
 AOR §6)? **(2) heeft het de juiste vorm** (naam, velden, structuur)? **(3) bestaat het al
@@ -89,12 +91,12 @@ ergens anders** (dubbel)?
 
 | # | Norm | Bron |
 |---|---|---|
-| I-D1 | Een nieuw bestand staat in de **map van de domeineigenaar** volgens de domeinkaart (bv. Detech/Landelis → `BUSINESS/consulting/Landelis BV/…`, boekhouding → `ACCOUNTING & ADMIN`) | Domeinkaart §2 |
+| I-D1 | Een nieuw bestand staat in de **map van de domeineigenaar** volgens de domeinkaart (bv. Detech/Landelis → `BUSINESS/consulting/Landelis BV/…`, boekhouding → `ACCOUNTING & ADMIN`). **Uitzondering — migratiezone:** werk dat Bart in een Claude-project startte (`HUISSTIJL & WERKDOCUMENTEN/projects claude/…`) blijft daar tot het project naar Code is gebracht en gemerged; de Systeemwachter noteert het als *in migratie* en meldt het niet. Na de merge geldt de gewone plaatsingsregel | Domeinkaart §2; Bart 13/10 (Detech) |
 | I-D2 | Binnen een dossier de **vaste submappen**: pand `01`–`10` (pandsjabloon) · consultingklant `01 Contract · 02 Werkdocumenten · …` · plaatsbeschrijvingen `03/Plaatsbeschrijvingen/<jaar>/<unit>/` | Pandsjabloon; pagina 05 Consulting (09/10); 03 Huur & gebruik |
-| I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; documenten: nooit de naam uit de mail of de scanner laten staan (`scan001`), nooit overschrijven. **Algemene conventie (beslist 13/10): `JJJJ-MM-DD_Documenttype_Partij[_detail].ext`**, enkel voor nieuwe documenten. **Foto's met een cameranaam (`IMG_1234`) mogen hun naam houden.** Werkdocumenten van agents en code vallen erbuiten | Bart 10/10 (staande aanpak fo, nr. 2); Bart 13/10 (§8.1) |
+| I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; documenten: nooit de naam uit de mail of de scanner laten staan (`scan001`), nooit overschrijven. **Algemene conventie (beslist 13/10): `JJJJ-MM-DD_Documenttype_Partij[_detail].ext`**, enkel voor nieuwe documenten. **Foto's vallen buiten de naamregel**: een cameranaam (`IMG_1234`) mag blijven, een zelfgekozen naam ook (Bart 13/10). Werkdocumenten van agents en code vallen erbuiten | Bart 10/10 (staande aanpak fo, nr. 2); Bart 13/10 (§8.1) |
 | I-D4 | Geen nieuwe map op niveau 1 of 2 (`/MAFINCO/<x>`, `/PERSOONLIJK/<x>`) zonder plaats in de domeinkaart | Domeinkaart §1.1 |
 | I-D5 | Geen kopie van hetzelfde bestand op twee plekken. Uitzondering: een skill die geregistreerd is als "Notion + lokaal/geïnstalleerd" (veld *Geïnstalleerd in*) | Werkcontract regel 5; skillregel 24/09 |
-| I-D6 | Output van agents (rapporten, analyses) landt in het dossier van de eigenaar, niet in een tool- of projectmap (`Experience app/output`) | Domeinkaart §2 |
+| I-D6 | De **officiële versie** van agent-output (rapporten, checkups, analyses) staat in het domein van de eigenaar (Notion-pagina of Dropbox-dossier). Een werkkopie in de map van een Code-project (`Experience app/output`) is toegestaan, maar telt niet als bron; gecontroleerd wordt enkel dat de officiële versie bestaat | Domeinkaart §2; werkcontract regel 5 |
 
 **Wat bij afwijking:** altijd **SW aan de eigenaar** (verplaatsen of hernoemen in andermans
 map is nooit mechanisch). Uitzondering: elementen in CoS-eigendom (Ecosystem Optimization,
