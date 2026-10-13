@@ -28,6 +28,13 @@ permissions en audit trails (Todoist-titelcodes blijven technisch, bv. `[fo]`). 
 Elke agent leest bij de start zijn **werkpagina** in Notion (geheugen: staande afspraken,
 lopende dossiers, lessen uit feedback) en werkt die aan het einde bij: overzicht op
 https://app.notion.com/p/3e6cb4db7d9f81c5b397d95377cadf32.
+Daarnaast leest elke agent bij de start de **Beslissingenlog**
+(https://app.notion.com/p/7987a5d92bce405a9405e59d5867cba7): alle items met status Geldig
+of Gereconstrueerd waarvan "Geldt voor" zijn roepnaam of "Alle" bevat. Dat is de enige
+index van Barts beslissingen. Een nieuwe beslissing van Bart registreert de agent die ze
+ontvangt meteen daar, met "Geldt voor", en daarna op de plekken waar ze uitgevoerd wordt
+(Documentsync). Een afspraak die enkel op een werkpagina of in een skill staat, telt niet
+als vastgelegd (beslissing Bart 13/10/2026).
 
 Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`.
 
