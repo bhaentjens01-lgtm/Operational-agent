@@ -237,7 +237,7 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
 4. ✅ **Beslist 13/10: ja.** **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
 5. ✅ **Beslist 13/10: ja (fix met log).** **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
    is SW. Default: fix, want de regel is expliciet (operating-model §3) en omkeerbaar.
-6. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
+6. ✅ **Beslist 13/10: ja (enkel tellen per categorie + controle Verzonden Items; geen inhoud, geen onderwerpen in het rapport).** **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
    Systeemwachter dat mag, of blijft mail volledig bij Bman? Default: tellen mag.
 7. **Eerste run.** Vakantie 13/10–01/11: geen checks voor Bart. Default: nulmeting draait
    stil (enkel weeklog, niets voorgelegd); eerste rapport aan Bart op **vr 06/11**.
