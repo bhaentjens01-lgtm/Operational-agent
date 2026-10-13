@@ -1,13 +1,13 @@
 # Governance — Systeemwachter (deelmandaat van de Chief of Staff)
 
-Status: **VOORSTEL v1.1 — ter goedkeuring door Bart (za 10/10/2026).** Vervangt de open
+Status: **v1.1 — GOEDGEKEURD door Bart op 13/10/2026** (beslissingen §8.1–8.7, chat Atlas). Evaluatie samen met domeinkaart en goedkeuringsregime: vr 06/11/2026. Vervangt de open
 verwijzing "mandaattekst Systeemwachter: slotcheck 29/09" in `chief-of-staff.md` §2 en in
 Agent Operating Rules (AOR) addendum 18/09. Bij conflict gaan de **🤖 Agent Operating Rules**
 in Notion voor (https://app.notion.com/p/3cacb4db7d9f819fa780dc0b25914a26).
 
 Dit document bevat **enkel normen en regels**, geen vermogens- of persoonsdata. Elke norm
 hieronder heeft een bron: een beslissing van Bart die al vastligt. Wat niet vastligt, staat
-in §8 als open punt, en wordt **niet** gecontroleerd tot Bart het beslist.
+in §8, en wordt **niet** gecontroleerd tot Bart het beslist. Alle punten van §8 zijn beslist op 13/10.
 
 ---
 
@@ -239,8 +239,7 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
    is SW. Default: fix, want de regel is expliciet (operating-model §3) en omkeerbaar.
 6. ✅ **Beslist 13/10: ja (enkel tellen per categorie + controle Verzonden Items; geen inhoud, geen onderwerpen in het rapport).** **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
    Systeemwachter dat mag, of blijft mail volledig bij Bman? Default: tellen mag.
-7. **Eerste run.** Vakantie 13/10–01/11: geen checks voor Bart. Default: nulmeting draait
-   stil (enkel weeklog, niets voorgelegd); eerste rapport aan Bart op **vr 06/11**.
+7. ✅ **Beslist 13/10: nulmeting nu** ("alles nu opgelost en op elkaar afgestemd"), uitgevoerd in de cloudsessie van 13/10 en gelogd in de weeklog. Tijdens de vakantie draait de weekcheck stil (enkel weeklog); het eerste rapport aan Bart komt op **vr 06/11**.
 
 ## 9. Documentsync na akkoord
 

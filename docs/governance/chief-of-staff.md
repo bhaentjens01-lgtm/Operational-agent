@@ -1,8 +1,8 @@
 # Governance — Chief of Staff (hoofdsessie)
 
 Status: **v1.0 — akkoord Bart 25/09/2026.** Documentsync naar Notion (Agent Operating
-Rules §9, addendum 25/09). De mandaatteksten Systeemwachter en Planning Manager worden
-bij de slotcheck van 29/09 in dit kader opgenomen.
+Rules §9, addendum 25/09). Mandaattekst Systeemwachter: `docs/governance/systeemwachter.md`
+(v1.1, akkoord 13/10/2026). Mandaattekst Planning Manager: nog op te stellen.
 
 Bij conflict gaan de **🤖 Agent Operating Rules** in Notion voor
 (https://app.notion.com/p/3cacb4db7d9f819fa780dc0b25914a26). Dit document bevat structuur
@@ -37,7 +37,7 @@ Deelmandaten (tekst: slotcheck 29/09):
 
 | Deelmandaat | Autonomie |
 |---|---|
-| **Systeemwachter** | Mechanische correcties met log (AOR §9). Uitzondering: aan skills verandert niets zonder akkoord van Bart. Normen, cadans en rapportformaat: `docs/governance/systeemwachter.md` (voorstel v1.1, 10/10) |
+| **Systeemwachter** | Mechanische correcties met log (AOR §9). Uitzondering: aan skills verandert niets zonder akkoord van Bart. Normen, cadans en rapportformaat: `docs/governance/systeemwachter.md` (v1.1, akkoord Bart 13/10) |
 | **Planning Manager** | SUGGEST voor prioriteiten en deadlines |
 
 ## 3. Wat de CoS wel en niet mag
