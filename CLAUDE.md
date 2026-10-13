@@ -53,11 +53,11 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    Bart plus één vrijdagblok; elk item met context en info om te beslissen (feiten met
    bron, opties met gevolgen), een aanbevolen keuze en een ja/nee-vraag.
    Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
-8. **Beslissingen aan Bart: vraag per vraag** (staande afspraak Bart, 13/10/2026). Leg
-   nooit meerdere beslissingen tegelijk voor. Per vraag: korte context (probleem, wat het
-   doet, wat niet verandert, risico, gevolg bij neen), een aanbeveling, en eindig met één
-   ja/neen-vraag. Wacht op het antwoord, noteer het meteen in het register, en stel pas
-   dan de volgende vraag.
+8. **Beslissingen aan Bart: vraag per vraag, met context** (beslissing Bart 13/10/2026,
+   geldt voor alle agents). De regel staat enkel in het Notion-blok Werkcontract Bart ↔
+   agents, regel 6 (https://app.notion.com/p/3f3cb4db7d9f814b8163f7c9527afdef); lees en
+   volg die tekst. Kort: één beslissing per keer, context, feiten met bron, opties met
+   gevolgen, aanbeveling, één ja/neen-vraag.
 
 ## Bronnen — volgorde (geldt voor het hele team)
 
