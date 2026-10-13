@@ -52,6 +52,11 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    aanpak; stilte is ja enkel voor klasse A en interne stappen; max 5 items per dag voor
    Bart plus één vrijdagblok; elk item met default plus ja/nee.
    Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
+8. **Beslissingen aan Bart: vraag per vraag** (staande afspraak Bart, 13/10/2026). Leg
+   nooit meerdere beslissingen tegelijk voor. Per vraag: korte context (probleem, wat het
+   doet, wat niet verandert, risico, gevolg bij neen), een aanbeveling, en eindig met één
+   ja/neen-vraag. Wacht op het antwoord, noteer het meteen in het register, en stel pas
+   dan de volgende vraag.
 
 ## Bronnen — volgorde (geldt voor het hele team)
 

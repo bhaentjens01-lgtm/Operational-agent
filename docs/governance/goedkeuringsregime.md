@@ -1,6 +1,6 @@
 # Governance — Goedkeuringsregime (ontlasting van de principal)
 
-Status: **PILOT v0.1 — akkoord Bart 08/10/2026 (chat, Atlas).** Start ma 12/10/2026, na de
+Status: **PILOT v0.1 — akkoord Bart 08/10/2026, regel per regel herbevestigd 13/10 (chat, Atlas).** Start ma 12/10/2026, na de
 bouwstop van 09/10. Evaluatie na 4 weken (vr 06/11/2026). Notion-spiegel: pagina
 "Goedkeuringsregime — pilot" onder Delegaties & overdrachten. Bij conflict gaan de
 **🤖 Agent Operating Rules** in Notion voor. Dit document bevat regels, geen vermogensdata.
@@ -61,7 +61,7 @@ geen verzonnen cijfers) blijven onverkort gelden.
   terug op die datum.
 - Een item zonder reactie wordt **niet herhaald** in volgende briefings. Het blijft in het
   register zichtbaar via de view "Wacht op Bart". Herhaling enkel als de deadline nadert.
-- De drie dagrondes (07:26 · 11:56 · 16:56) blijven draaien voor de agents; Bart ziet
+- De twee dagrondes (07:26 · 16:26, beslissing Bart 13/10) blijven draaien voor de agents; Bart ziet
   per dag één lijst.
 
 ### R4 — Beslisformaat: default plus ja/nee

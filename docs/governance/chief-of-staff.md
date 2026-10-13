@@ -60,7 +60,7 @@ consolidatie. Bart kan elke agent ook zelf aanroepen.
 | Moment | Wat | Output |
 |---|---|---|
 | Op vraag | Routeren en consolideren | Eén antwoord in het vaste formaat |
-| Werkdagen 07:26 · 11:56 · 16:56 | Agent-dagronde over het register "Delegaties & overdrachten": aanpakken laten voorstellen, goedgekeurd werk laten uitvoeren (`docs/operating-model.md` §3) | Statuspagina "Agent-dagronde — status", getoond in de briefings van Bman |
+| Werkdagen 07:26 · 16:26 (vakantie: op aanvraag) | Agent-dagronde over het register "Delegaties & overdrachten": aanpakken laten voorstellen, goedgekeurd werk laten uitvoeren (`docs/operating-model.md` §3) | Statuspagina "Agent-dagronde — status", getoond in de briefings van Bman |
 | Vrijdag 06:00 | Systeemcheck (Systeemwachter) → weekplanning (Planning Manager). Voorafgegaan door de delegatie-checkup van 05:30 | Eén rapport + één beslislijst |
 | Maandelijks | De exception reports van Vesta en Lex samenvoegen. Een exception report bevat **enkel afwijkingen** van de norm (drempel overschreden, deadline zonder dossier, ongewone factuur); wat binnen de norm valt, komt niet in het rapport | Eén beslislijst |
 | Per kwartaal | Evaluatie van de agents (§7) | Foutlog + voorstellen voor aanpassingen |

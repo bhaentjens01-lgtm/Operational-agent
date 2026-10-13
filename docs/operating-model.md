@@ -77,7 +77,7 @@ uit in zijn eigen registers, dan gaat het item naar *Klaar* met het resultaat, e
 de briefing onder "Ter info — intern uitgevoerd". Bart hoeft niets te doen, maar kan
 "terugdraaien" of "bespreken" zeggen.
 
-**Hoe Bart de aanpakken ziet.** De CoS draait op werkdagen om 07:26, 11:56 en 16:56 een
+**Hoe Bart de aanpakken ziet.** De CoS draait op werkdagen om 07:26 en 16:26 (beslissing Bart 13/10; vakantie 13/10–01/11 enkel op aanvraag) een
 ronde over het register en schrijft het resultaat op de pagina "Agent-dagronde — status".
 Bman toont die in de briefings van 08:15, 12:30 en 18:00, onder "Aanpakken ter goedkeuring" en
 "Resultaten ter nazicht". Bart antwoordt met een ID (`DEL-12 ok`), en Bman schrijft dat antwoord
@@ -104,7 +104,7 @@ rol heeft en wat die persoon wel of niet kan doen, staat in Notion, niet in deze
 | Ritme | Output | Agent |
 |---|---|---|
 | Dagelijks | Ochtend- en avondbriefing, mailtriage, Waiting For | Bman |
-| Werkdagen 07:26 · 11:56 · 16:56 | Agent-dagronde over het register → statuspagina voor de briefings | CoS |
+| Werkdagen 07:26 · 16:26 (vakantie: op aanvraag) | Agent-dagronde over het register → statuspagina voor de briefings | CoS |
 | Wekelijks (vr 06:00) | Systeemcheck + weekplanning → één rapport en één beslislijst | CoS |
 | Wekelijks (ma) | Dealflow-triage + open acties | investment |
 | Maandelijks | Cashfeed-afsluiting, AP-controle, compliance-kalender 90 dagen | admin |
