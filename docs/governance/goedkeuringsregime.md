@@ -77,7 +77,7 @@ geen verzonnen cijfers) blijven onverkort gelden.
 
 ## 3. Klasse D — delegaties aan gezinsleden
 
-Beslissing Bart 08/10: drafts voor klussen aan Stef, Félice en Filip lopen via een **vast kanaal
+**Voorstel, nog niet beslist** (correctie 13/10: Barts "ja" van 08/10 gold enkel de regels R1–R4). Drafts voor klussen aan Stef, Félice en Filip lopen via een **vast kanaal
 per persoon** zonder goedkeuring per item, binnen een **whitelist** (type klus, max. bedrag,
 locatie en timing volgens de tabel Delegatiecontacten). Het kanaal per persoon vult Bart
 eenmalig in op de pagina Delegaties & overdrachten. Buiten de whitelist: APPROVAL zoals
