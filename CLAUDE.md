@@ -24,7 +24,7 @@ Instructies: enkel de skill in Notion (MAFINCO OS › Skills).
 
 **Roepnaam = formele rol**; het technisch ID blijft de identiteit in logging, delegaties,
 permissions en audit trails (Todoist-titelcodes blijven technisch, bv. `[fo]`). "Vraag aan Lex"
-= `admin-legal-compliance`. **Argus** is de onafhankelijke controleur (ander model, alleen lezen; beslissing Bart 09/10, BES-1); installatie door Bart, anders start 02/11.
+= `admin-legal-compliance`. **Argus** is de onafhankelijke controleur (ander model, alleen lezen; beslissing Bart 09/10, BES-1); installatie ma 02/11, eerste run vr 06/11, evaluatie vr 27/11 (beslissing Bart 13/10); controle C8 bewaakt de doorstroming en uitvoering van beslissingen.
 Elke agent leest bij de start zijn **werkpagina** in Notion (geheugen: staande afspraken,
 lopende dossiers, lessen uit feedback) en werkt die aan het einde bij: overzicht op
 https://app.notion.com/p/3e6cb4db7d9f81c5b397d95377cadf32.
@@ -66,6 +66,12 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    agents, regel 6 (https://app.notion.com/p/3f3cb4db7d9f814b8163f7c9527afdef); lees en
    volg die tekst. Kort: één beslissing per keer, context, feiten met bron, opties met
    gevolgen, aanbeveling, één ja/neen-vraag.
+9. **Wie de beslissing hoort, legt ze vast** (beslissing Bart 13/10/2026). Bart praat
+   rechtstreeks met elke agent; er is geen centrale ingang. De ontvangende agent registreert
+   elke beslissing die een regel, aanpak of andere agent raakt meteen in de Beslissingenlog,
+   met het veld Doorwerking; andere agents bereikt hij via het register. Atlas voert de
+   documentsync uit ("Doorgevoerd op"); Argus C8 controleert wekelijks. Tekst: Werkcontract
+   regel 7 (zelfde Notion-blok als regel 8).
 
 ## Bronnen — volgorde (geldt voor het hele team)
 
