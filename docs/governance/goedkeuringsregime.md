@@ -1,6 +1,6 @@
 # Governance — Goedkeuringsregime (ontlasting van de principal)
 
-Status: **PILOT v0.1 — akkoord Bart 08/10/2026 (chat, Atlas).** Start ma 12/10/2026, na de
+Status: **PILOT v0.1 — akkoord Bart 08/10/2026, regel per regel herbevestigd 13/10 (chat, Atlas).** Start ma 12/10/2026, na de
 bouwstop van 09/10. Evaluatie na 4 weken (vr 06/11/2026). Notion-spiegel: pagina
 "Goedkeuringsregime — pilot" onder Delegaties & overdrachten. Bij conflict gaan de
 **🤖 Agent Operating Rules** in Notion voor. Dit document bevat regels, geen vermogensdata.
@@ -61,13 +61,20 @@ geen verzonnen cijfers) blijven onverkort gelden.
   terug op die datum.
 - Een item zonder reactie wordt **niet herhaald** in volgende briefings. Het blijft in het
   register zichtbaar via de view "Wacht op Bart". Herhaling enkel als de deadline nadert.
-- De drie dagrondes (07:26 · 11:56 · 16:56) blijven draaien voor de agents; Bart ziet
+- De twee dagrondes (07:26 · 16:26, beslissing Bart 13/10) blijven draaien voor de agents; Bart ziet
   per dag één lijst.
 
 ### R4 — Beslisformaat: default plus ja/nee
 
 - Elk item dat Bart bereikt bevat **één aanbevolen keuze**, de reden in één regel, en wat
   er gebeurt bij "nee". Formulering: *"Ik doe X, tenzij je nee zegt."*
+- **Context en info om te kunnen beslissen** (aanvulling Bart 13/10): elk item legt eerst
+  kort uit wat er speelt en waarom het nu op tafel ligt, met de relevante feiten en
+  cijfers (telkens met bron), de opties met hun gevolgen, en wat de keuze niet verandert.
+  Bart moet kunnen beslissen zonder zelf het dossier te openen. Kort blijft de norm:
+  zoveel context als nodig, niet meer.
+- "Tenzij je nee zegt" is een formulering, geen toestemming: voor klasse B start niets
+  zonder expliciete ok van Bart.
 - Open vragen aan Bart zijn enkel toegestaan voor **feiten die nergens in de bronnen
   staan** (Notion, Dropbox, Cashfeed, mail), en dan gebundeld in **één regel** per item.
 - Een item met meer dan één open vraag gaat terug naar de agent: eerst zelf zoeken,
@@ -77,7 +84,7 @@ geen verzonnen cijfers) blijven onverkort gelden.
 
 ## 3. Klasse D — delegaties aan gezinsleden
 
-Beslissing Bart 08/10: drafts voor klussen aan Stef, Félice en Filip lopen via een **vast kanaal
+**Voorstel, nog niet beslist** (correctie 13/10: Barts "ja" van 08/10 gold enkel de regels R1–R4). Drafts voor klussen aan Stef, Félice en Filip lopen via een **vast kanaal
 per persoon** zonder goedkeuring per item, binnen een **whitelist** (type klus, max. bedrag,
 locatie en timing volgens de tabel Delegatiecontacten). Het kanaal per persoon vult Bart
 eenmalig in op de pagina Delegaties & overdrachten. Buiten de whitelist: APPROVAL zoals

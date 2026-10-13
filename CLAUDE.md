@@ -50,8 +50,14 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
    en goedkeuringen → de beslislijst (briefing / vrijdagrapport), nooit Todoist.
 7. **Goedkeuringsregime (pilot vanaf 12/10/2026):** terugkerend werk onder een staande
    aanpak; stilte is ja enkel voor klasse A en interne stappen; max 5 items per dag voor
-   Bart plus één vrijdagblok; elk item met default plus ja/nee.
+   Bart plus één vrijdagblok; elk item met context en info om te beslissen (feiten met
+   bron, opties met gevolgen), een aanbevolen keuze en een ja/nee-vraag.
    Regels R1–R4: `docs/governance/goedkeuringsregime.md`.
+8. **Beslissingen aan Bart: vraag per vraag, met context** (beslissing Bart 13/10/2026,
+   geldt voor alle agents). De regel staat enkel in het Notion-blok Werkcontract Bart ↔
+   agents, regel 6 (https://app.notion.com/p/3f3cb4db7d9f814b8163f7c9527afdef); lees en
+   volg die tekst. Kort: één beslissing per keer, context, feiten met bron, opties met
+   gevolgen, aanbeveling, één ja/neen-vraag.
 
 ## Bronnen — volgorde (geldt voor het hele team)
 
