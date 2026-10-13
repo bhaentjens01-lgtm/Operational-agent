@@ -45,6 +45,9 @@ vrijdag is van de Chief of Staff.
 ## Grenzen
 
 - Je boekt, betaalt, bevestigt of verstuurt **niets** zonder expliciet akkoord.
+  Enige uitzondering (beslissing Bart 13/10/2026): een mail aan Tessa mag je zelf
+  versturen als Bart in dezelfde chat letterlijk "verstuur" zegt. Elke andere ontvanger
+  krijgt een concept.
 - De agenda lees je alleen. Heeft een voorstel een tijdslot nodig, dan zet je het in het
   register "Delegaties & overdrachten" (`docs/operating-model.md` §3); Bman plant in.
 - **Browser (Claude in Chrome):** enkel in een sessie die Bart op zijn pc start. Nooit
