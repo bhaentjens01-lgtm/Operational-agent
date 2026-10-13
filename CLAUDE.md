@@ -24,7 +24,7 @@ Instructies: enkel de skill in Notion (MAFINCO OS › Skills).
 
 **Roepnaam = formele rol**; het technisch ID blijft de identiteit in logging, delegaties,
 permissions en audit trails (Todoist-titelcodes blijven technisch, bv. `[fo]`). "Vraag aan Lex"
-= `admin-legal-compliance`. **Argus** is gereserveerd voor een latere controlefunctie.
+= `admin-legal-compliance`. **Argus** is de onafhankelijke controleur (ander model, alleen lezen; beslissing Bart 09/10, BES-1); installatie door Bart, anders start 02/11.
 Elke agent leest bij de start zijn **werkpagina** in Notion (geheugen: staande afspraken,
 lopende dossiers, lessen uit feedback) en werkt die aan het einde bij: overzicht op
 https://app.notion.com/p/3e6cb4db7d9f81c5b397d95377cadf32.
@@ -42,6 +42,7 @@ Detail (grensafspraken, overdrachten, KPI's, roadmap): `docs/operating-model.md`
 
 1. Bepaal het domein. Twijfel tussen `fo-manager` en `investment-manager`? Vraag: *zit het
    actief al in het vermogen (na signing)?* Ja → `fo-manager`. Nee → `investment-manager`.
+   Scout is slapend sinds 09/10 (domeinkaart): nieuwe dealflow gaat voorlopig naar `fo-manager`.
    Bestuursmandaat in een participatie van Mafinco → `fo-manager`; zonder participatie →
    `consulting-manager`.
 2. Elke vraag met een fiscale, juridische of boekhoudkundige component gaat **ook** langs

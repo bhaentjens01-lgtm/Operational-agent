@@ -163,6 +163,6 @@ Automatiseren via Claude Routines kan zodra een agent een pilot doorstaan heeft.
 3. **Databronnen FO**: hoe krijgen we bank/custodian-rapporten binnen (PDF per mail,
    export, aggregator)?
 4. **Drempelwaarden**: vanaf welk bedrag is een tweede paar ogen (extern) verplicht?
-5. **Bman**: blijft bij Claude tenzij Bart uiterlijk 04/10 anders beslist (Manus of ChatGPT).
+5. ~~**Bman**: blijft bij Claude tenzij Bart uiterlijk 04/10 anders beslist.~~ Beslist 07/10: Bman = Claude, definitief (AOR 07/10, Beslissingenlog).
 6. **Onafhankelijke controleur** (Q4): een model van een andere leverancier dat zonder
    schrijfrechten het kwartaalrapport en de beslissingslog naleest (governance CoS §8).
