@@ -27,7 +27,7 @@ nooit beoordelen in de plaats van Bart.
 | Niveau | Systeemwachter |
 |---|---|
 | 🟢 **Mechanische fix met log** | Een correctie die (a) een **vastgelegde norm** toepast, (b) **geen inhoudelijke keuze** vraagt, (c) **omkeerbaar** is, en (d) in de eigen registers van de CoS of in metadata valt (duur, label, map, status, opvolgdatum op CoS-items). Elke fix in de weeklog met object-ID. |
-| 🟠 **Voorstel (SW-nummer)** | Alles wat een keuze inhoudt, iets van een andere eigenaar raakt, of niet omkeerbaar is zonder werk. Formaat R4: default + ja/nee. Gebundeld in het vrijdagrapport. |
+| 🟠 **Voorstel (SW-nummer)** | Alles wat een keuze inhoudt, iets van een andere eigenaar raakt, of niet omkeerbaar is zonder werk. Formaat: Werkcontract regel 6 + R4 (context, feiten met bron, opties met gevolgen, aanbeveling, één ja/nee-vraag; vraag per vraag). Gebundeld in het vrijdagrapport. |
 | 🔴 **Nooit zonder expliciete ja** | **Skills** (Notion-skillregel 22/09, bevestigd 24/09): niets aanpassen, ook geen veldwaarde. Verwijderen (technisch geblokkeerd). Routines aan- of uitzetten, prompts of connectorsets wijzigen. Schrijven in registers, Todoist-projecten of Dropbox-mappen van een andere eigenaar. Externe communicatie. |
 
 Grens met de andere eigenaars (domeinkaart v1 §1): de Systeemwachter stelt vast en meldt;
@@ -115,7 +115,7 @@ Dropbox blijft technisch een `ask`.
 | N2 | Bij "Notion + lokaal" is de **versie aan beide kanten gelijk** (Notion-body vs. lokaal bestand) | AOR 24/09 | Versieregel in de paginabody vergelijken met het lokale bestand | SW |
 | N3 | Lokaal geïnstalleerde skills zonder DB-item worden gemeld | AOR 24/09 | Lokale skills-map vs. DB | SW |
 | N4 | Register "Delegaties & overdrachten": elk open item (niet Klaar/Geannuleerd) met **verstreken deadline** heeft een **Opvolgen op**-datum | Werkcontract 08/10 regel 2 en 5; domeinkaart §1.3 | Query op status + deadline < vandaag + Opvolgen op leeg | Items van CoS: fix (standaard = eerstvolgende evaluatiedatum). Andere eigenaars: SW per agent |
-| N5 | Register-items die aan Bart worden voorgelegd volgen **R4**: één vraag, default, "wat bij nee" | Goedkeuringsregime R4 | Steekproef op status *Naar Bart* en *Aanpak voorgesteld* | SW aan de agent |
+| N5 | Register-items die aan Bart worden voorgelegd volgen **R4 + Werkcontract regel 6**: context, feiten met bron, opties met gevolgen, aanbeveling, één ja/nee-vraag | Goedkeuringsregime R4 (aangevuld 13/10); Werkcontract regel 6 (13/10) | Steekproef op status *Naar Bart* en *Aanpak voorgesteld* | SW aan de agent |
 | N6 | Terugkerend werk heeft een item met vinkje **Staande aanpak** en een **vervaldatum** (standaard 3 maanden); een vervallen staande aanpak wordt gemeld | Goedkeuringsregime R1 | View "Staande aanpakken" | SW aan de eigenaar |
 | N7 | Een beslissing van Bart staat in de **Beslissingenlog** én op elke plek waar ze gedocumenteerd is (repo, skill, AOR). Een wijziging op één plek = niet doorgevoerd | AOR 18/09 Documentsync | Beslissingen van de week (chat, addenda) afzetten tegen Beslissingenlog en repo | Fix voor de Beslissingenlog (CoS-eigendom); SW voor skills/AOR-teksten |
 | N8 | Elke agent heeft een **werkpagina** die na zijn laatste ronde is bijgewerkt (datum laatste wijziging ≤ laatste ronde) | CLAUDE.md; goedkeuringsregime §4 | Bewerkingsdatum per werkpagina | SW aan de agent |
