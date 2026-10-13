@@ -147,6 +147,7 @@ controleert enkel of de **mailflows** lopen.
 | M3 | Categorieën *accounting / events / investments / real estate / ops* hebben geen items ouder dan 5 werkdagen zonder registeritem of taak | AOR 09/10 | Telling per categorie | SW aan de domeinagent |
 | M4 | **Niets verzonden door een agent.** Verzonden Items bevatten enkel mails die Bart zelf of via de dashboardknop verstuurde; elke dashboardverzending heeft "verzonden dd/mm" in het registeritem | AOR 07/10 namiddag; settings.json `ask` | Sent Items van de week vs. register | 🔴 Security-signaal, meteen aan Bart; nooit fix |
 | M5 | Barts eigen "FW:"-mails zijn door Bman doorgerouteerd naar de domeinagent (registeritem bestaat) | Domeinkaart Bman | Steekproef | SW aan Bman |
+| M6 | **Claude-inbox** (Outlook-map "Claude", Todoist-project 💡 Claude, Dropbox `/Idea Inbox`): geen item ouder dan 7 dagen zonder verwerking (Outlook-categorie "Claude verwerkt" of C-ID afgehandeld). Bman legt dagelijks in ochtend fase 2 een ja/nee-voorstel per item voor; Atlas verwerkt `/Idea Inbox` zolang fase 2 geen Dropbox-connector heeft | Afspraak Bart 11/10 (Bman-overname-skill §14; werkpagina Atlas) | Telling per bron, ouderdom | Items > 7 d bovenaan de vrijdag-weekwacht; tijdens de vakantie (signaalmodus) verzamelen tot 02/11 |
 
 ### 4.4 Dropbox
 
