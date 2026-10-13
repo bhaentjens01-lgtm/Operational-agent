@@ -96,7 +96,7 @@ ergens anders** (dubbel)?
 | I-D3 | **Bestandsnaam**: huurdersdocumenten `<Kamer> <Voornaam Naam> <academiejaar> - <documenttype>`; documenten: nooit de naam uit de mail of de scanner laten staan (`scan001`), nooit overschrijven. **Algemene conventie (beslist 13/10): `JJJJ-MM-DD_Documenttype_Partij[_detail].ext`**, enkel voor nieuwe documenten. **Foto's vallen buiten de naamregel**: een cameranaam (`IMG_1234`) mag blijven, een zelfgekozen naam ook (Bart 13/10). Werkdocumenten van agents en code vallen erbuiten | Bart 10/10 (staande aanpak fo, nr. 2); Bart 13/10 (§8.1) |
 | I-D4 | Geen nieuwe map op niveau 1 of 2 (`/MAFINCO/<x>`, `/PERSOONLIJK/<x>`) zonder plaats in de domeinkaart | Domeinkaart §1.1 |
 | I-D5 | Geen kopie van hetzelfde bestand op twee plekken. Uitzondering: een skill die geregistreerd is als "Notion + lokaal/geïnstalleerd" (veld *Geïnstalleerd in*) | Werkcontract regel 5; skillregel 24/09 |
-| I-D6 | De **officiële versie** van agent-output (rapporten, checkups, analyses) staat in het domein van de eigenaar (Notion-pagina of Dropbox-dossier). Een werkkopie in de map van een Code-project (`Experience app/output`) is toegestaan, maar telt niet als bron; gecontroleerd wordt enkel dat de officiële versie bestaat | Domeinkaart §2; werkcontract regel 5 |
+| I-D6 | Agent-output (rapporten, checkups, analyses): de **officiële versie** staat in het domein van de eigenaar (Notion-pagina of Dropbox-dossier). **Werkkopieën** van Code-sessies staan enkel in `/MAFINCO/HUISSTIJL & WERKDOCUMENTEN/Agents/Output/<agent>/` (eigenaar Atlas), nergens anders. Werkkopie zonder officiële versie, of werkkopie buiten die map → SW. Werkkopieën ouder dan 90 dagen → archiveren (voorstel). **Agent-output komt nooit in de repo** (CLAUDE.md governance 5) | Domeinkaart §2; werkcontract regel 5; Bart 13/10 (§8.3) |
 
 **Wat bij afwijking:** altijd **SW aan de eigenaar** (verplaatsen of hernoemen in andermans
 map is nooit mechanisch). Uitzondering: elementen in CoS-eigendom (Ecosystem Optimization,
@@ -231,14 +231,15 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
    **`JJJJ-MM-DD_Documenttype_Partij[_detail].ext`** voor originele documenten, enkel voor
    nieuwe bestanden; huurdersregel van 10/10 blijft de uitzondering; werkdocumenten van agents
    en code vallen erbuiten.
-2. **Instroomcontrole als vast onderdeel (§4.0)**, venster = sinds de vorige run, enkel
-   melden aan de eigenaar. Default: ja.
-3. **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
-4. **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
+2. ✅ **Beslist 13/10: ja**, met: foto's vrij van naamregel, migratiezone voor Claude-projecten, opkuisronde eind november. **Instroomcontrole als vast onderdeel (§4.0)**, venster = sinds de vorige run, enkel
+   melden aan de eigenaar.
+3. ✅ **Beslist 13/10: ja. Werkkopieën agent-output** → één map `Agents/Output/<agent>/`; officiële versie in het domein; nooit in de repo. De twee Q3-checkup-kopieën zijn op 13/10 verplaatst van `BUSINESS/Experience app/output/` naar `Agents/Output/Lex/`. **Security-melding:** vermogensdata van alle agents samen in één map (geen bredere toegang, wel concentratie). Mitigatie: geen gedeelde links op die map, archiveren na 90 dagen.
+4. **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
+5. **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
    is SW. Default: fix, want de regel is expliciet (operating-model §3) en omkeerbaar.
-5. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
+6. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
    Systeemwachter dat mag, of blijft mail volledig bij Bman? Default: tellen mag.
-6. **Eerste run.** Vakantie 13/10–01/11: geen checks voor Bart. Default: nulmeting draait
+7. **Eerste run.** Vakantie 13/10–01/11: geen checks voor Bart. Default: nulmeting draait
    stil (enkel weeklog, niets voorgelegd); eerste rapport aan Bart op **vr 06/11**.
 
 ## 9. Documentsync na akkoord
@@ -250,6 +251,7 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
 | Notion: Systeemwachter — weeklog | Kop verwijst naar dit document; scorecard volgt §5 |
 | Lokaal: scheduled task `systeemwachter-weekcheck` | Prompt verwijst naar dit document en kopieert de normen niet |
 | Notion: Beslissingenlog | BES-item "Mandaat Systeemwachter v1.1" |
+| Skill pre-accountant checkup (Lex) + Code-projecten | Outputpad werkkopie → `Agents/Output/<agent>/` (§8.3) |
 
 Kill switch: dit bestand hernoemen; dan geldt enkel AOR §2 (mechanische fix met log) zonder
 normenlijst, en de weekcheck meldt alleen nog R3 (stilte-detectie).
