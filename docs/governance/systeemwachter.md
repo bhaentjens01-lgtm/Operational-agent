@@ -234,7 +234,7 @@ terugkomen bij dezelfde eigenaar → één SW "oorzaak" in plaats van drie herha
 2. ✅ **Beslist 13/10: ja**, met: foto's vrij van naamregel, migratiezone voor Claude-projecten, opkuisronde eind november. **Instroomcontrole als vast onderdeel (§4.0)**, venster = sinds de vorige run, enkel
    melden aan de eigenaar.
 3. ✅ **Beslist 13/10: ja. Werkkopieën agent-output** → één map `Agents/Output/<agent>/`; officiële versie in het domein; nooit in de repo. De twee Q3-checkup-kopieën zijn op 13/10 verplaatst van `BUSINESS/Experience app/output/` naar `Agents/Output/Lex/`. **Security-melding:** vermogensdata van alle agents samen in één map (geen bredere toegang, wel concentratie). Mitigatie: geen gedeelde links op die map, archiveren na 90 dagen.
-4. **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
+4. ✅ **Beslist 13/10: ja.** **Plafond voorstellen per week = 7** en 3-wekenregel (§5). Default: ja.
 5. **T6 (prioriteit terug naar P4) als mechanische fix.** Raakt Barts eigen lijst; alternatief
    is SW. Default: fix, want de regel is expliciet (operating-model §3) en omkeerbaar.
 6. **M1–M3 mailtellingen.** Dit leest categorie en datum, niet de inhoud. Akkoord dat de
